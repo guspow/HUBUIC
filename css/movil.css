@@ -6,11 +6,205 @@
 @media (max-width:1024px){
 
     .search-bar{
-        max-width:250px;
-        margin:0 20px;
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 45px;
+    }
+
+    .header-subnav{
+        overflow-x:auto;
+    }
+
+    .subnav-inner{
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        white-space:nowrap;
+        gap:15px;
+    }
+
+    .subnav-inner a{
+        font-size:14px;
+        flex:0 0 auto;
+    }
+    
+    .hero-content{
+        max-width:68%;
+    }
+
+    .hero-image-container{
+        top:0%;
+    }
+    .hero-image{
+        width:100%;
+    }
+    .hero-description, .section-description{
+        font-size:16px;
+    }
+
+    .hero-stats{
+        bottom: 3%;
+    }
+
+    .stat-number{
+        font-size:25px;
+    }
+
+    .stat-text{
+        font-size:15px;
+    }
+
+    .hero-section{
+        min-height:510px;
+    }
+
+    .oferta-label, .program-label,
+    .docentes-label, .section-label,
+    .reconocimientos-label{
+        font-size: 18px;
+    }
+    .oferta-title, .reconocimientos-title{
+        font-size:28px;
+    }
+
+    .oferta-desc, .docentes-desc{
+        font-size:18px;
+        max-width:100%;
+    }
+
+    .oferta-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .tab-btn{
+        font-size:12px;
+    }
+
+    .program-info h2{
+        font-size:35px;
+    }
+
+    .program-info p{
+        font-size:17px;
+    }
+
+    .program-box{
+        width:45%;
+    }
+
+    .program-box h3{
+        font-size: 18px;
+        font-family: 'Avenir', serif;
+    }
+
+    .program-box ul li{
+        font-size: 12px;
+    }
+
+    .program-cards{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .program-card h4 {
+        font-size: 16px;
+    }
+
+    .faq-title{
+        font-size:28px;
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+    .faq-answer p {
+        font-size: 16px;
+    }
+    .docentes-title, .section-title{
+        font-size:28px;
+    }
+
+    .docente-info h3 {
+        font-size: 22px;
+    }
+    .docente-cargo {
+        font-size: 18px;
+    }   
+    .docente-info p {
+        font-size: 16px;
+    }
+    .docentes-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .docente-card h4{
+        font-size: 20px;
+    }
+    .imagen-box{
+        height:auto;
+    }
+    .header-text h3{
+        font-size: 18px;
+    }
+    .header-icon{
+        font-size: 50px;
+    }
+    .header-text span{
+        font-size: 16px;
+    }
+    .clinicas-section{
+        padding: 1px 5px 20px 50px;
+    }
+    .clinica-body p{
+        font-size: 15px;
+    }
+    .clinica-footer h3{
+        font-size: 25px;
+    }   
+    .clinica-footer p{
+        font-size: 16px;
+    }
+    .reconocimientos-desc{
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .reconocimientos-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .reconocimiento-info h3 {
+        font-size: 25px;
+    }
+    .reconocimiento-cargo{
+        font-size: 18px;
     }
 
 }
+
+/* MOBILE */
+.hero h1 {
+    font-size: 28px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+    .hero-section {
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+}
+
+
 
 /* móvil */
 
@@ -32,12 +226,6 @@
         width:300px;
     }
 
-}
-
-
-/* ================= MOBILE FIX GLOBAL ================= */
-@media (max-width:768px){
-
     body{
         overflow-x:hidden;
     }
@@ -53,10 +241,6 @@
     .header-main{
         position:fixed;
     }
-
-}
-
-@media (max-width:768px){
 
     .header-subnav{
         overflow-x:auto;
@@ -74,10 +258,6 @@
         flex:0 0 auto;
     }
 
-}
-
-@media (max-width:768px){
-
     body.menu-open .site-wrapper{
         transform:none; /* 🔥 CLAVE: ya no empuja el sitio */
     }
@@ -86,10 +266,6 @@
         width:85%;
         max-width:320px;
     }
-
-}
-
-@media (max-width:768px){
 
     .hero-section{
         min-height:auto;
@@ -139,9 +315,9 @@
         position: absolute;
         top:16%;
         left:1%;
-        transform: translateY(-50%);
+        transform: translateY(-200%);
         z-index:3;
-        max-width:70%;
+        max-width:65%;
         margin-top:-5%
     }
 
@@ -655,42 +831,3 @@ html, body {
     overflow-x: hidden;
     max-width: 100%;
 }
-
-
-/* @media (max-width:768px){
-
-    .hero-section{
-        height:auto;
-        padding:20px 15px;
-    }
-
-    .hero-inner{
-        display:flex;
-        flex-direction:column;
-    }
-
-    .hero-content{
-        position:relative;
-        top:auto;
-        left:auto;
-        transform:none;
-        max-width:100%;
-        margin-bottom:20px;
-        order:1;
-    }
-
-    .hero-image-container{
-        position:relative;
-        width:100%;
-        height:180px;
-        order:2;
-    }
-
-    .hero-image{
-        width:100%;
-        height:100%;
-        object-fit:cover;
-        border-radius:10px;
-    }
-
-} */

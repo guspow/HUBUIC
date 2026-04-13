@@ -1,6 +1,6 @@
 <?php
 $request = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-print_r($_SERVER) . "<br>";
+// print_r($_SERVER) . "<br>";
 /* dividir ruta */
 $segments = explode('/', trim($request, '/'));
 
@@ -98,14 +98,14 @@ $base = implode('/', $parts) . '/';
                     <li class="menu-item"><a href="https://www.uic.mx/bachillerato">Bachillerato</a></li>
                     <li class="menu-item current-menu-item"><a href="https://www.uic.mx/licenciaturas/">Licenciaturas</a></li>
 
-                    <li class="menu-item menu-item-has-children <?= in_array($current, ['psicologia', 'negocios']) ? 'active' : '' ?>">
+                    <!-- <li class="menu-item menu-item-has-children <?= in_array($current, ['psicologia', 'negocios']) ? 'active' : '' ?>">
                         <a href="#">Hub</a>
                         <span class="submenu-toggle <?= in_array($current, ['psicologia', 'negocios']) ? 'active' : '' ?>"><i class="fas fa-angle-down"></i></span>
                         <ul class="sub-menu <?= in_array($current, ['psicologia', 'negocios']) ? 'active' : '' ?>">
                             <li class="<?= ($current == 'psicologia') ? 'active' : '' ?>"><a href="<?= $base . "psicologia" ?>">Psicología y Psicoanálisis</a></li>
-                            <!-- <li class="<?= ($current == 'negocios') ? 'active' : '' ?>"><a href="<?= $base . "negocios" ?>">Negocios</a></li> -->
+                            <li class="<?= ($current == 'negocios') ? 'active' : '' ?>"><a href="<?= $base . "negocios" ?>">Negocios</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="menu-item"><a href="https://educacionenlinea.uic.mx/licenciaturas-en-linea/">Licenciaturas en Línea</a></li>
                     <li class="menu-item"><a href="https://www.uic.mx/posgrados/">Posgrados</a></li>
