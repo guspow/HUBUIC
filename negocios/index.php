@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/aside_menu.css">
     <link rel="stylesheet" href="css/content.css">
     <script>
-        document.write('<link rel="stylesheet" href="css/movil.css?v=' + Date.now() + '">');
+        document.write('<link rel="stylesheet" href="css/movil_negocios.css?v=' + Date.now() + '">');
     </script>
 
     <!-- ══ OPEN GRAPH ══ -->
