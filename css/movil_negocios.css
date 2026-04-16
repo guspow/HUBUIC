@@ -416,13 +416,13 @@
     .hero-stats{
         /* position: relative; */
         width: 76%;
-        bottom: 3%; 
+        bottom: 6%; 
         left: 46.5%
    }
 
     .hero-line{
-        position: relative;
-        top:75px;
+        /* position: relative; */
+        bottom: -10px;
     }
 
     .stats-grid{
