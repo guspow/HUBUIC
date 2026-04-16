@@ -532,7 +532,7 @@
                     <div class="oferta-grid-N">
 
                         <!-- CARD 1 -->
-                        <div class="oferta-card mae">
+                        <div class="oferta-card adm">
                             <span class="tag">LICENCIATURA</span>
                             <h3>Administración y Dirección Estratégica</h3>
                             <p>Forma líderes con visión estrategica, simuladores de negocios y capacidad de dirección a nivel ejecutivo</p>
@@ -547,7 +547,7 @@
                         </div>
 
                         <!-- CARD 2 -->
-                        <div class="oferta-card lic">
+                        <div class="oferta-card con">
                             <span class="tag">LICENCIATURA</span>
                             <h3>Contaduría y Finanzas</h3>
                             <p>Gestión financiera, fiscal y contable con enfoque estratégico. Alta empleabilidad en todos los sectores.</p>
@@ -562,7 +562,7 @@
                         </div>
 
                         <!-- CARD 3 -->
-                        <div class="oferta-card doc">
+                        <div class="oferta-card mer">
                             <span class="tag">LICENCIATURA</span>
                             <h3>Mercadotecnia</h3>
                             <p>Equilibra análisis de datos con creatividad estratégica. Marketing digital, neuromarketing y branding.</p>
@@ -577,7 +577,7 @@
                         </div>
 
                         <!-- CARD 4 -->
-                        <div class="oferta-card post">
+                        <div class="oferta-card rci">
                             <span class="tag">LICENCIATURA</span>
                             <h3>Relaciones Comerciales Internacionales</h3>
                             <p>Negocios globales, logística, aduanas y negociación intercultural. Inserción laboral desde 7° semestre.</p>

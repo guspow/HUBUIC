@@ -309,10 +309,32 @@
 .post .tag, .post .link{ 
     color:#0a5c2a; 
 }
-.tur{
-    border-top:4px solid #268193;
+
+.adm{
+    border-top:4px solid #2e5b9f;
 }
-.tur .tag, .tur .link{ color:#268193; }
+.adm .tag, .adm .link{ color:#2e5b9f; }
+
+.con{
+    border-top:4px solid #35825f;
+}
+.con .tag, .con .link{ color:#35825f; }
+
+.mer{
+    border-top:4px solid #d35d23;
+}
+.mer .tag, .mer .link{ color:#d35d23; }
+
+.rci{
+    border-top:4px solid #258193;
+}
+.rci .tag, .rci .link{ color:#258193; }
+
+
+.tur{
+    border-top:4px solid #b98328;
+}
+.tur .tag, .tur .link{ color:#b98328; }
 
 
 /* PROGRAMAS */
