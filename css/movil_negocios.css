@@ -522,7 +522,6 @@
         width: 100%;
     }
 
-    
 
     .oferta-grid,
     .docentes-grid,
@@ -957,6 +956,7 @@
     /* TITULOS */
     .pr-docente-body h4{
         font-size:16px;
+        font-family: 'Avenir', serif;
     }
 }
 

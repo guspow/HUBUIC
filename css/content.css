@@ -798,6 +798,7 @@
     padding-left:15px;
     font-size: 17px;
     font-family: 'Avenir', serif;
+    line-height: 1.8;
 }
 
 .lista-fa li::before{
