@@ -1976,7 +1976,7 @@
                     <!--/* Ocultos */-->
 
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Psicología">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Administración y Dirección Estratégica">
 
                     <!-- Forma de contacto -->
                     <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
@@ -2000,7 +2000,7 @@
                     <input type="hidden" name="utm_id" id="utm_id" value="">
                     <input type="hidden" name="utm_content" id="utm_content" value="(none)">
                     <input type="hidden" name="utm_url" id="utm_url" value="utm_url">
-                    <input type="hidden" name="utm_page" id="utm_page" value="/licenciaturas/psicologia/">
+                    <input type="hidden" name="utm_page" id="utm_page" value="/licenciaturas/administracion-de-direccion-estrategica/">
 
                     <!-- Oferta de interés UTM -->
                     <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden" placeholder="Oferta de interés UTM">
