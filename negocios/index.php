@@ -5,30 +5,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>División de Negocios</title>
-    <meta name="description" content="Division de Negocios">
+    <!-- ══ PRIMARY SEO ══ -->
+    <title>División de Negocios · UIC · Administración, Contaduría, Mercadotecnia, RCI y Turismo · CDMX</title>
+    <meta name="description" content="Cinco licenciaturas en la División de Negocios de la Universidad Intercontinental: Administración y Dirección Estratégica, Contaduría y Finanzas, Mercadotecnia, Relaciones Comerciales Internacionales y Administración de Negocios Turísticos. Presencial, CDMX.">
     <link rel="icon" href="https://www.uic.mx/licenciaturas/wp-content/uploads/favicon_uic.png">
+    <meta name="keywords" content="licenciatura administración CDMX, contaduría y finanzas México, mercadotecnia UIC, relaciones comerciales internacionales México, administración de negocios turísticos CDMX, Universidad Intercontinental División de Negocios, RCI UIC, LANT UIC" />
+    <meta name="robots" content="index, follow" />
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --program-color: #f5a623;
+            --program-color: #2e5b9f;
         }
     </style>
-    <link rel="stylesheet" href="css/aside_menu.css">
-    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="../css/aside_menu.css">
+    <link rel="stylesheet" href="../css/content.css">
     <script>
-        document.write('<link rel="stylesheet" href="css/movil_negocios.css?v=' + Date.now() + '">');
+        document.write('<link rel="stylesheet" href="../css/movil_negocios.css?v=' + Date.now() + '">');
     </script>
 
     <!-- ══ OPEN GRAPH ══ -->
-    <link rel="canonical" href="https://www.uic.edu.mx/programas/psicologia/">
-
+    <link rel="canonical" href="https://uic.mx/negocios/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Psicología y Psicoanálisis · UIC México">
-    <meta property="og:description" content="Licenciatura, Maestría, Doctorado y Postdoctorado en Psicología y Psicoanálisis en la UIC.">
-    <meta property="og:image" content="https://www.uic.mx/ia-html/UIC2/imagenes/Psicologiaypsicoanalisis.jpg">
-    <meta property="og:url" content="https://www.uic.edu.mx/programas/psicologia/">
+    <meta property="og:title" content="División de Negocios · UIC México">
+    <meta property="og:description" content="Administración y Dirección Estratégica, Contaduría y Finanzas, Mercadotecnia, Relaciones Comerciales Internacionales y Administración de Negocios Turísticos en la Universidad Intercontinental, CDMX.">
+    <meta property="og:image" content="https://www.uic.mx/ia-html/UIC2/imagenes/negocios/header.jpg">
+    <meta property="og:url" content="https://uic.mx/negocios/">
     <meta property="og:locale" content="es_MX">
 
     <!-- ══ SCHEMA.ORG JSON-LD ══ -->
@@ -38,12 +41,11 @@
             "@context": "https://schema.org",
             "@graph": [{
                     "@type": ["CollegeOrUniversity", "EducationalOrganization"],
-                    "@id": "https://uic.mx/ia-html/UIC2/#org",
+                    "@id": "https://www.uic.mx/#org",
                     "name": "Universidad Intercontinental",
                     "alternateName": "UIC",
-                    "url": "https://www.uic.edu.mx",
+                    "url": "https://www.uic.mx",
                     "logo": "https://www.uic.mx/licenciaturas/wp-content/uploads/2024/05/Logo-50-Universidad-Intercontinental-horizontal-blanco-scaled.png",
-                    "image": "https://www.uic.mx/ia-html/UIC2/imagenes/Psicologiaypsicoanalisis.jpg",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Ciudad de México",
@@ -55,135 +57,241 @@
                 },
                 {
                     "@type": "Course",
-                    "@id": "#lic",
-                    "name": "Licenciatura en Psicología",
-                    "description": "Programa de licenciatura que forma psicólogos con competencias clínicas, educativas, neuropsicológicas y de investigación. Disponible en modalidad escolarizada (4 años), a distancia (2 años 8 meses) y en línea (2 años 3 meses).",
+                    "@id": "#adm",
+                    "name": "Licenciatura en Administración y Dirección Estratégica",
+                    "description": "Programa presencial de 4 años que forma líderes con visión estratégica, analítica y directiva. Integra finanzas corporativas, dirección de capital humano, operaciones, consultoría y emprendimiento con simuladores de negocios y casos reales.",
                     "provider": {
-                        "@id": "https://uic.mx/ia-html/UIC2/#org"
+                        "@id": "https://www.uic.mx/#org"
                     },
-                    "teaches": ["Psicología clínica", "Evaluación psicológica", "Neuropsicología", "Psicopatología", "Intervención psicoeducativa", "Psicología de la salud"],
-                    "courseMode": ["onsite", "online", "blended"],
+                    "educationalLevel": "Licenciatura",
+                    "courseMode": "onsite",
                     "hasCourseInstance": [{
-                            "@type": "CourseInstance",
-                            "courseMode": "onsite",
-                            "name": "Modalidad Escolarizada",
-                            "duration": "P4Y"
-                        },
-                        {
-                            "@type": "CourseInstance",
-                            "courseMode": "online",
-                            "name": "Modalidad a Distancia",
-                            "duration": "P2Y8M"
-                        },
-                        {
-                            "@type": "CourseInstance",
-                            "courseMode": "blended",
-                            "name": "Modalidad en Línea",
-                            "duration": "P2Y3M"
-                        }
-                    ],
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "duration": "P4Y"
+                    }],
+                    "teaches": ["Planeación estratégica", "Finanzas corporativas", "Dirección de capital humano", "Administración de operaciones", "Consultoría empresarial", "Inteligencia de negocios", "Emprendimiento"],
                     "instructor": {
                         "@type": "Person",
-                        "name": "Mtra. Alejandra López Valenzuela",
-                        "jobTitle": "Directora de la Licenciatura en Psicología",
-                        "worksFor": {
-                            "@id": "https://www.uic.edu.mx/#org"
-                        }
+                        "@id": "#mtro-jaal"
                     }
                 },
                 {
                     "@type": "Course",
-                    "@id": "#mst",
-                    "name": "Maestría en Psicoterapia Psicoanalítica",
-                    "description": "Posgrado de especialización clínica para psicólogos titulados. Forma psicoterapeutas en la práctica psicoanalítica contemporánea y relacional. Modalidad mixta, 5 semestres.",
+                    "@id": "#cont",
+                    "name": "Licenciatura en Contaduría y Finanzas",
+                    "description": "Programa presencial de 4 años que forma profesionales capaces de gestionar, analizar e interpretar información financiera. Integra contabilidad, finanzas corporativas, fiscalidad, auditoría y herramientas digitales con enfoque estratégico.",
                     "provider": {
-                        "@id": "https://uic.mx/ia-html/UIC2/#org"
+                        "@id": "https://www.uic.mx/#org"
                     },
-                    "educationalLevel": "Maestría",
-                    "teaches": ["Psicoterapia psicoanalítica", "Psicoanálisis relacional", "Supervisión clínica", "Neuropsicoanálisis", "Metodología cualitativa", "Diagnóstico psicodinámico"],
-                    "courseMode": "blended",
+                    "educationalLevel": "Licenciatura",
+                    "courseMode": "onsite",
                     "hasCourseInstance": [{
                         "@type": "CourseInstance",
-                        "courseMode": "blended",
-                        "name": "Modalidad Mixta",
-                        "duration": "P2Y6M"
+                        "courseMode": "onsite",
+                        "duration": "P4Y"
                     }],
+                    "teaches": ["Contabilidad financiera y de costos", "Finanzas corporativas", "Derecho fiscal", "Auditoría", "Presupuestos", "Análisis de datos", "Evaluación de proyectos"],
                     "instructor": {
                         "@type": "Person",
-                        "@id": "#dr-rva"
+                        "@id": "#mtro-jaal"
                     }
                 },
                 {
                     "@type": "Course",
-                    "@id": "#doc",
-                    "name": "Doctorado en Psicoanálisis",
-                    "description": "Programa doctoral de alta especialización para formar investigadores y clínicos avanzados. Produce conocimiento psicoanalítico original. Modalidad mixta, 3 semestres y un verano. 4 áreas de acentuación.",
+                    "@id": "#mkt",
+                    "name": "Licenciatura en Mercadotecnia",
+                    "description": "Programa presencial de 4 años que equilibra análisis de datos con creatividad estratégica. Forma mercadólogos capaces de gestionar marcas, interpretar el comportamiento del consumidor, diseñar campañas digitales y tomar decisiones basadas en Big Data.",
                     "provider": {
-                        "@id": "https://uic.mx/ia-html/UIC2/#org"
+                        "@id": "https://www.uic.mx/#org"
                     },
-                    "educationalLevel": "Doctorado",
-                    "teaches": ["Investigación psicoanalítica", "Clínica avanzada", "Psicoanálisis contemporáneo", "Didáctica psicoanalítica", "Neuropsicoanálisis", "Ética psicoanalítica"],
-                    "courseMode": "blended",
+                    "educationalLevel": "Licenciatura",
+                    "courseMode": "onsite",
                     "hasCourseInstance": [{
                         "@type": "CourseInstance",
-                        "courseMode": "blended",
-                        "name": "Modalidad Mixta",
-                        "duration": "P1Y6M"
+                        "courseMode": "onsite",
+                        "duration": "P4Y"
                     }],
+                    "teaches": ["Marketing digital y SEO/SEM", "Comportamiento del consumidor", "Gestión de marcas", "Investigación de mercados", "E-commerce", "Neuromarketing", "Analítica web y Big Data"],
                     "instructor": {
                         "@type": "Person",
-                        "@id": "#dr-rva"
+                        "@id": "#mtra-lms"
                     }
                 },
                 {
                     "@type": "Course",
-                    "@id": "#post",
-                    "name": "Postdoctorado en Psicoanálisis Contemporáneo",
-                    "description": "Programa postdoctoral para doctores en ejercicio. Actualización en psicoanálisis relacional, intersubjetivo y las fronteras actuales del campo. 100% a distancia, 3 semestres. Cuerpo docente internacional.",
+                    "@id": "#rci",
+                    "name": "Licenciatura en Relaciones Comerciales Internacionales",
+                    "description": "Programa presencial de 4 años multidisciplinario. Forma líderes en negocios internacionales, logística global, derecho aduanero, negociación intercultural y emprendimiento. Los alumnos trabajan desde el séptimo semestre.",
                     "provider": {
-                        "@id": "https://uic.mx/ia-html/UIC2/#org"
+                        "@id": "https://www.uic.mx/#org"
                     },
-                    "educationalLevel": "Postdoctorado",
-                    "teaches": ["Psicoanálisis relacional", "Psicoanálisis intersubjetivo", "Modelos del inconsciente", "Investigación postdoctoral", "Neuropsicoanálisis avanzado"],
-                    "courseMode": "online",
+                    "educationalLevel": "Licenciatura",
+                    "courseMode": "onsite",
                     "hasCourseInstance": [{
                         "@type": "CourseInstance",
-                        "courseMode": "online",
-                        "name": "Modalidad a Distancia",
-                        "duration": "P1Y6M"
+                        "courseMode": "onsite",
+                        "duration": "P4Y"
                     }],
+                    "teaches": ["Negocios internacionales", "Logística y cadena de suministro", "Derecho aduanero", "Negociación intercultural", "Comercio exterior", "Mercados regionales", "Emprendimiento internacional"],
                     "instructor": {
                         "@type": "Person",
-                        "@id": "#dr-rva"
+                        "@id": "#mtra-gsl"
+                    }
+                },
+                {
+                    "@type": "Course",
+                    "@id": "#lant",
+                    "name": "Licenciatura en Administración de Negocios Turísticos",
+                    "description": "Programa presencial de 4 años (8 semestres) que combina gestión empresarial con hospitalidad. Forma profesionales del turismo, eventos MICE, gastronomía, marketing turístico y sostenibilidad. Incluye 5 certificaciones y prácticas internacionales.",
+                    "provider": {
+                        "@id": "https://www.uic.mx/#org"
+                    },
+                    "educationalLevel": "Licenciatura",
+                    "courseMode": "onsite",
+                    "hasCourseInstance": [{
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "duration": "P4Y"
+                    }],
+                    "teaches": ["Gestión hotelera y alojamiento", "Organización de eventos MICE", "Marketing turístico", "Gastronomía y alimentos y bebidas", "Turismo sostenible", "Diseño de productos turísticos"],
+                    "instructor": {
+                        "@type": "Person",
+                        "@id": "#mtra-cvl"
                     }
                 },
                 {
                     "@type": "Person",
-                    "@id": "#dr-rva",
-                    "name": "Dr. Roberto Vargas Arreola",
-                    "jobTitle": "Director de Posgrados en Psicoanálisis",
+                    "@id": "#mtro-jaal",
+                    "name": "Mtro. Jorge Arturo Amaya Luna",
+                    "jobTitle": "Director Académico de la División de Negocios",
                     "worksFor": {
-                        "@id": "https://uic.mx/ia-html/UIC2/#docentes"
+                        "@id": "https://www.uic.mx/#org"
                     },
-                    "knowsAbout": ["Psicoanálisis relacional", "Parejas y familia contemporáneas", "Psicoanálisis en contextos actuales", "Intervención clínica psicoanalítica"],
-                    "description": "Director de los programas de posgrado en psicoanálisis de la UIC. Doctor en Psicoanálisis con área en Pareja y familia. Analista y supervisor didáctico. Miembro IARPP, vocal AMPPR, secretario suplente CNPC. Director de Dasein: Espacio de Psicoterapia.",
-                    "hasCredential": {
-                        "@type": "EducationalOccupationalCredential",
-                        "credentialCategory": "Doctor en Psicoanálisis"
-                    },
-                    "author": [{
-                            "@type": "Book",
-                            "name": "La piel del mundo: Una mirada del Psicoanálisis Relacional a las familias contemporáneas"
+                    "alumniOf": [{
+                            "@type": "EducationalOrganization",
+                            "name": "UNAM"
                         },
                         {
-                            "@type": "Book",
-                            "name": "La Dignidad Compartida: Ética desde el Psicoanálisis Relacional frente a la violencia y la cosificación"
-                        },
-                        {
-                            "@type": "CreativeWork",
-                            "name": "PRAD – Perfil Relacional para Adolescentes (instrumento clínico)"
+                            "@id": "https://www.uic.mx/#org"
                         }
-                    ]
+                    ],
+                    "hasCredential": [{
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Licenciatura en Contaduría, UNAM"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Maestría en Administración, UIC"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Docente certificado ANFECA"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Acreditador CACECA"
+                        }
+                    ],
+                    "knowsAbout": ["Consultoría contable", "Finanzas corporativas", "Estrategias fiscales", "Planeación estratégica", "Dirección de operaciones", "Alta dirección"],
+                    "description": "Maestro en Administración por la UIC y Licenciado en Contaduría por la UNAM. Consultor de empresas, ponente en congresos nacionales, acreditador de programas académicos de negocios (CACECA) y docente de posgrado. Más de 30 años de trayectoria académica y profesional. Director académico de las licenciaturas en Administración y Dirección Estratégica y en Contaduría y Finanzas de la UIC."
+                },
+                {
+                    "@type": "Person",
+                    "@id": "#mtra-lms",
+                    "name": "Mtra. Lorena Morán Sámano",
+                    "jobTitle": "Directora Académica de la Licenciatura en Mercadotecnia",
+                    "worksFor": {
+                        "@id": "https://www.uic.mx/#org"
+                    },
+                    "hasCredential": [{
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Licenciatura en Comunicación Social"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Licenciatura en Psicología"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Maestría en Mercadotecnia"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Especialidad en Publicidad en Medios Interactivos"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Docente certificada ANFECA"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Certificate in Event Production, Procesa Group"
+                        }
+                    ],
+                    "knowsAbout": ["Marketing 360 para PyMES", "Marketing en intangibles", "Psicología del consumidor", "Endomarketing"],
+                    "description": "Directora Académica de la Licenciatura en Mercadotecnia y Dirección Comercial. Licenciada en Comunicación Social y Psicología, Maestra en Mercadotecnia y especialista en Publicidad en Medios Interactivos. Par evaluadora de programas académicos (CACECA, CIEES, CONAC). Asesora en marketing estratégico y endomarketing para PyMES nacionales e internacionales."
+                },
+                {
+                    "@type": "Person",
+                    "@id": "#mtra-gsl",
+                    "name": "Mtra. Giannina Sampieri Laguna",
+                    "jobTitle": "Directora Divisional de Negocios · ex-Directora Académica de RCI",
+                    "worksFor": {
+                        "@id": "https://www.uic.mx/#org"
+                    },
+                    "alumniOf": [{
+                            "@type": "EducationalOrganization",
+                            "name": "ITAM"
+                        },
+                        {
+                            "@type": "EducationalOrganization",
+                            "name": "Universidad Autónoma de Barcelona"
+                        }
+                    ],
+                    "hasCredential": [{
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Relaciones Internacionales, ITAM"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Maestría en Integración Europea, UAB–ITAM"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Certificación académica ANFECA"
+                        }
+                    ],
+                    "knowsAbout": ["Economía internacional", "Negocios internacionales", "Relaciones internacionales", "Marketing estratégico", "Planeación estratégica"],
+                    "description": "Estudió Relaciones Internacionales en el ITAM y cursó una Maestría en Integración Europea (UAB–ITAM). Fue Gerente de Marketing y Planeación Estratégica de la Asociación de Volkswagen, emprendedora en dos negocios. Autora de artículos en journals arbitrados sobre comercio y economía. Directora Divisional de Negocios de la UIC."
+                },
+                {
+                    "@type": "Person",
+                    "@id": "#mtra-cvl",
+                    "name": "Mtra. Claudia Vara López",
+                    "jobTitle": "Directora Académica de la Licenciatura en Administración de Negocios Turísticos",
+                    "worksFor": {
+                        "@id": "https://www.uic.mx/#org"
+                    },
+                    "hasCredential": [{
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Maestría"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Certificación Docente ANFECA"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Certified Meeting Specialist (CMS)"
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "Certified in Congress Management (CCM)"
+                        }
+                    ],
+                    "knowsAbout": ["Gestión educativa del turismo", "Organización de eventos y reuniones", "Turismo MICE", "Formación académica profesional"],
+                    "description": "Directora Académica de la Licenciatura en Administración de Negocios Turísticos de la UIC. Más de 30 años de gestión académica. Certified Meeting Specialist (CMS) y Certified in Congress Management (CCM). Participación activa en asociaciones profesionales del sector turístico y educativo. Materias: Negocios y Organizaciones Turísticas, Turismo de Reuniones."
                 },
                 {
                     "@type": "FAQPage",
@@ -259,19 +367,19 @@
                             "@type": "ListItem",
                             "position": 1,
                             "name": "Inicio",
-                            "item": "https://uic.mx/ia-html/UIC2"
+                            "item": "https://www.uic.mx/"
                         },
                         {
                             "@type": "ListItem",
                             "position": 2,
                             "name": "Programas",
-                            "item": "https://uic.mx/ia-html/UIC2/#programas"
+                            "item": "https://www.uic.mx/"
                         },
                         {
                             "@type": "ListItem",
                             "position": 3,
-                            "name": "Psicología y Psicoanálisis",
-                            "item": "https://uic.mx/ia-html/UIC2/#programas"
+                            "name": "División de Negocios",
+                            "item": "https://uic.mx/negocios/"
                         }
                     ]
                 }
@@ -322,11 +430,11 @@
                 <div class="header-subnav">
                     <div class="subnav-inner">
                         <a href="#todos"> Todos los programas</a>
-                        <a href="#programas" class="menu-link M" data-program="administracion"> Administración</a>
-                        <a href="#programas" class="menu-link L" data-program="contaduria"> Contaduría</a>
-                        <a href="#programas" class="menu-link D" data-program="mercadotecnia"> Mercadotecnia</a>
-                        <a href="#programas" class="menu-link P" data-program="rci"> RCI</a>
-                        <a href="#programas" class="menu-link T" data-program="turismo"> Turismo</a>
+                        <a href="#programas" class="menu-link AD" data-program="administracion"> Administración</a>
+                        <a href="#programas" class="menu-link CO" data-program="contaduria"> Contaduría</a>
+                        <a href="#programas" class="menu-link ME" data-program="mercadotecnia"> Mercadotecnia</a>
+                        <a href="#programas" class="menu-link RC" data-program="rci"> RCI</a>
+                        <a href="#programas" class="menu-link TU" data-program="turismo"> Turismo</a>
                         <a href="#docentes"> Cuerpo docente</a>
                         <!-- <a href="#testimonios"> Testimonios</a> -->
                         <!-- <a href="#clinicas"> Clínicas</a>
@@ -343,7 +451,7 @@
             <section class="hero-section">
                 <!-- Imagen de fondo fija -->
                 <div class="hero-image-container">
-                    <img src="imagenes/negocios/header.jpeg" alt="Negocios" class="hero-image">
+                    <img src="../imagenes/negocios/header.jpeg" alt="Negocios" class="hero-image">
                     <!-- "https://www.uic.mx/licenciaturas/wp-content/uploads/back_row01-licenciaturas.jpg"  -->
                 </div>
 
@@ -357,7 +465,7 @@
                         <h1 class="hero-title">División de <br><span style="color: #fdcb70;">Negocios</span></h1>
                         <p class="hero-description">
                             <strong style="font-weight: bold;">El mundo de los negocios no espera:<br>
-                                Da el siguiente paso en tu trayectoria profesional</strong> <br><br>
+                                Inicia tu formación gerencial hoy</strong> <br><br>
                             Pasa de la teoría a la práctica corporativa. Conoce nuestras 5
                             licenciaturas especializadas y aprovecha <span style="font-weight: bold;"> más de 40 convenios
                                 empresariales </span>para impulsar tu perfil desde el primer semestre.
@@ -577,57 +685,60 @@
 
                                     </div>
 
-                                    <div class="prog-docente-card">
 
-                                        <div class="prog-docente-header">
-                                            <div class="prog-docente-avatar">JAA</div>
-                                            <div>
+
+                                    <div class="prog-docente-card horizontal" style="background-color: #1d3962;">
+
+                                        <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                                        <div class="pr-docente-img">
+                                            <img src="../imagenes/negocios/Mtro_Jorge_Arturo_Amaya_Luna.png" alt="Mtro. Jorge Arturo Amaya Luna">
+                                        </div>
+
+                                        <!-- COLUMNA DERECHA (CONTENIDO) -->
+                                        <div class="pr-docente-content">
+
+                                            <div class="pr-docente-header">
                                                 <h3>Mtro. Jorge Arturo Amaya Luna</h3>
                                                 <p>Director Académico • Administración y Dirección Estratégica • UIC</p>
                                             </div>
-                                        </div>
 
-                                        <div class="prog-docente-body">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>FORMACIÓN ACADÉMICA</h4>
-                                                    <ul>
-                                                        <li>Licenciatura en Contaduría · UNAM</li>
-                                                        <li>Maestría en Administración · UIC</li>
-                                                    </ul>
+                                            <div class="pr-docente-body">
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>FORMACIÓN ACADÉMICA</h4>
+                                                        <ul>
+                                                            <li>Licenciatura en Contaduría · UNAM</li>
+                                                            <li>Maestría en Administración · UIC</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <h4>CERTIFICACIONES</h4>
+                                                        <ul>
+                                                            <li>Docente certificado por ANFECA</li>
+                                                            <li>Acreditador de programas académicos, CACECA</li>
+                                                            <li>Ponente en congresos nacionales de negocios</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div class="col">
-                                                    <h4>CERTIFICACIONES</h4>
-                                                    <ul>
-                                                        <li>Docente certificado por ANFECA</li>
-                                                        <li>Acreditador de programas académicos, CACECA</li>
-                                                        <li>Ponente en congresos nacionales de negocios</li>
-                                                    </ul>
+
+                                                <div class="row">
+                                                    <div class="col full">
+                                                        <h4>TRAYECTORIA PROFESIONAL</h4>
+                                                        <ul>
+                                                            <li>Más de 35 años asesorando empresas de diversos sectores</li>
+                                                            <li>Más de 30 años en docencia universitaria y posgrados</li>
+                                                            <li>Consultor en planeación estratégica, finanzas corporativas, estrategias fiscales y desarrollo de negocios</li>
+                                                            <li>Director académico de las licenciaturas en Administración y en Contaduría de la UIC</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>TRAYECTORIA PROFESIONAL</h4>
-                                                    <ul>
-                                                        <li>Más de 35 años asesorando empresas de diversos sectores</li>
-                                                        <li>Más de 30 años en docencia universitaria y posgrados</li>
-                                                        <li>Consultor en planeación estratégica, finanzas corporativas, estrategias fiscales y desarrollo de negocios</li>
-                                                        <li>Director académico de las licenciaturas en Administración y en Contaduría de la UIC</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col">
-                                                    <h4>MATERIAS QUE IMPARTE</h4>
-                                                    <ul>
-                                                        <li>Contabilidad Financiera e Información Financiera Empresarial</li>
-                                                        <li>Finanzas Corporativas</li>
-                                                        <li>Contabilidad Administrativa</li>
-                                                        <li>Costos para la Toma de Decisiones</li>
-                                                        <li>Marco Fiscal de la Empresa</li>
-                                                    </ul>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
+
 
                                     <!-- CARDS -->
                                     <div class="program-cards">
@@ -657,7 +768,7 @@
                                             </ul>
                                         </div>
 
-                                        <div class="program-card">
+                                        <!-- <div class="program-card">
                                             <h4>INGRESOS ESTIMADOS (2026)</h4>
                                             <ul>
                                                 <li>Junior (inicio):$13,000 – $17,500 / mes </li>
@@ -665,7 +776,7 @@
                                                 <li>Directivo / Senior: +$70,000 / mes</li>
                                                 <li>Inglés + certificación PMP o Data Analytics puede aumentar ingresos hasta 45%</li>
                                             </ul>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                     <!-- PREGUNTAS FRECUENTES -->
@@ -696,10 +807,16 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Se utilizan simuladores de negocios de última generación que replican mercados financieros y operativos reales,
-                                                    herramientas de análisis de datos e inteligencia de negocios, software de gestión de proyectos y metodologías de consultoría
-                                                    aplicadas a casos de empresas reales.
+                                                    Durante la carrera aprenderás a tomar decisiones utilizando tecnología
+                                                    aplicada al mundo corporativo, destacando el uso de <strong> simuladores de negocios
+                                                        de última generación </strong> que replican mercados financieros y operativos reales.
+                                                    Además, dominarás:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li><strong> Inteligencia de negocios y análisis de datos</strong> para respaldar estrategias.</li>
+                                                    <li><strong> Software de gestión de proyectos </strong>de nivel profesional.</li>
+                                                    <li>Metodologías de consultoría aplicadas directamente a casos de empresas reales.</li>
+                                                </ul>
                                             </div>
                                         </div>
 
@@ -709,15 +826,19 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    A personas con vocación de liderazgo, capacidad analítica, interés en los negocios internacionales y
-                                                    visión para resolver problemas complejos.
-                                                    También es ideal para quienes proyectan emprender, hacer consultoría o ascender a puestos directivos
-                                                    en empresas nacionales o multinacionales.
+                                                    Este programa es ideal para personas con vocación de liderazgo, capacidad
+                                                    analítica y visión para resolver problemas complejos. Conviene especialmente
+                                                    a quienes proyectan:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li><strong> Emprender</strong> sus propios negocios con bases sólidas.</li>
+                                                    <li><strong> Hacer consultoría</strong> estratégica para otras organizaciones.</li>
+                                                    <li><strong>Ascender a puestos directivos</strong>en empresas nacionales o multinacionales (gracias a su interés en negocios internacionales).</li>
+                                                </ul>
                                             </div>
                                         </div>
 
-                                        <div class="faq-item">
+                                        <!-- <div class="faq-item">
                                             <button class="faq-question">
                                                 ¿Cuánto gana un administrador de empresas recién egresado en México?
                                             </button>
@@ -729,7 +850,7 @@
                                                     El dominio del inglés y certificaciones en PMP o Data Analytics pueden incrementar estos rangos hasta un 45%.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                     </div>
 
@@ -774,6 +895,59 @@
 
                                     </div>
 
+                                    <div class="prog-docente-card horizontal" style="background-color: #286249;">
+
+                                        <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                                        <div class="pr-docente-img">
+                                            <img src="../imagenes/negocios/Mtro_Jorge_Arturo_Amaya_Luna.png" alt="Mtro. Jorge Arturo Amaya Luna">
+                                        </div>
+
+                                        <!-- COLUMNA DERECHA (CONTENIDO) -->
+                                        <div class="pr-docente-content">
+
+                                            <div class="pr-docente-header">
+                                                <h3>Mtro. Jorge Arturo Amaya Luna</h3>
+                                                <p>Director Académico • Administración y Dirección Estratégica • UIC</p>
+                                            </div>
+
+                                            <div class="pr-docente-body">
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>FORMACIÓN ACADÉMICA</h4>
+                                                        <ul>
+                                                            <li>Licenciatura en Contaduría · UNAM</li>
+                                                            <li>Maestría en Administración · UIC</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <h4>CERTIFICACIONES</h4>
+                                                        <ul>
+                                                            <li>Docente certificado por ANFECA</li>
+                                                            <li>Acreditador de programas académicos, CACECA</li>
+                                                            <li>Ponente en congresos nacionales de negocios</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col full">
+                                                        <h4>TRAYECTORIA PROFESIONAL</h4>
+                                                        <ul>
+                                                            <li>Más de 35 años asesorando empresas de diversos sectores</li>
+                                                            <li>Más de 30 años en docencia universitaria y posgrados</li>
+                                                            <li>Consultor en planeación estratégica, finanzas corporativas, estrategias fiscales y desarrollo de negocios</li>
+                                                            <li>Director académico de las licenciaturas en Administración y en Contaduría de la UIC</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                     <!-- CARDS -->
                                     <div class="program-cards">
 
@@ -802,7 +976,7 @@
                                             </ul>
                                         </div>
 
-                                        <div class="program-card">
+                                        <!-- <div class="program-card">
                                             <h4>Ingresos estimados (OCC / Indeed 2025)</h4>
                                             <ul>
                                                 <li><strong>Inicio:</strong> $8,000 – $12,000 / mes</li>
@@ -810,7 +984,7 @@
                                                 <li><strong>Con especialidad o puestos ejecutivos:</strong> +$40,000 / mes</li>
                                                 <li>542 mil contadores y auditores activos en México en Q1 2025 · Informalidad del sector: solo 11.6%</li>
                                             </ul>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                     <!-- PREGUNTAS FRECUENTES -->
@@ -824,9 +998,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Gestiona y analiza la información financiera para apoyar la toma de decisiones, elabora estados financieros,
-                                                    diseña estrategias fiscales, supervisa el cumplimiento de normativas contables y tributarias,
-                                                    y participa en procesos de auditoría y control interno en empresas de cualquier sector.
+                                                    Un egresado de esta carrera <strong>gestiona y analiza la información financiera</strong> para apoyar
+                                                    la toma de decisiones clave en empresas de cualquier sector. Su labor práctica incluye:
+                                                </p>
+                                                <ul class="lista-fa">
+                                                    <li>Elaborar<strong> estados financieros.</strong></li>
+                                                    <li>Diseñar <strong> estrategias fiscales </strong>eficientes.</li>
+                                                    <li>Supervisar el cumplimiento de <strong>normativas contables y tributarias.</strong></li>
+                                                    <li>Participar activamente en procesos de <strong>auditoría y control interno.</strong></li>
+                                                </ul>
                                                 </p>
                                             </div>
                                         </div>
@@ -837,11 +1017,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Contaduría y Finanzas se enfoca en la precisión contable,
-                                                    el cumplimiento fiscal y la gestión de la información financiera.
-                                                    Administración y Dirección Estratégica prioriza la visión de largo plazo y el liderazgo organizacional.
-                                                    Comparten bases de finanzas corporativas, pero el perfil de egreso y el campo laboral difieren.
+                                                    Aunque ambas comparten bases sólidas en finanzas corporativas,
+                                                    la diferencia radica en su enfoque y campo laboral:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li><strong>Contaduría y Finanzas:</strong> Se enfoca rigurosamente en la <strong>precisión contable</strong>, el cumplimiento fiscal y la gestión detallada de la información financiera.</li>
+                                                    <li><strong>Administración y Dirección Estratégica: </strong> Prioriza la <strong>visión de largo plazo</strong> y el liderazgo organizacional para dirigir la empresa en su conjunto.</li>
+                                                </ul>
                                             </div>
                                         </div>
 
@@ -851,16 +1033,18 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Es una de las carreras con mayor demanda sostenida.
-                                                    En el primer trimestre de 2025 había aproximadamente 542 mil personas trabajando como contadores,
-                                                    auditores y especialistas financieros en México.
-                                                    El sector financiero y de seguros registró más de 18,500 ofertas laborales entre enero y abril de 2025.
-                                                    La informalidad del sector es de solo 11.6%, muy por debajo del promedio nacional.
+                                                    Es una de las profesiones con <strong>mayor demanda sostenida</strong> y estabilidad en el país.
+                                                    Los datos del mercado laboral (2025) lo confirman:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li><strong>Alta empleabilidad:</strong> Existen aproximadamente 542 mil personas trabajando como contadores, auditores y especialistas financieros en México.</li>
+                                                    <li><strong>Oferta constante:</strong> El sector financiero y de seguros registró más de <strong>18,500 vacantes</strong> entre enero y abril de 2025.</li>
+                                                    <li><strong>Seguridad formal:</strong> La informalidad en este sector es de <strong>solo 11.6%</strong>, ubicándose muy por debajo del promedio nacional.</li>
+                                                </ul>
                                             </div>
                                         </div>
 
-                                        <div class="faq-item">
+                                        <!-- <div class="faq-item">
                                             <button class="faq-question">
                                                 ¿Cuánto gana un contador recién egresado en México?
                                             </button>
@@ -872,7 +1056,7 @@
                                                     Fuente: OCC México e Indeed, 2025.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                     </div>
 
@@ -915,57 +1099,60 @@
                                         </div>
                                     </div>
 
-                                    <div class="prog-docente-card">
+                                    <div class="prog-docente-card horizontal" style="background-color: #823a15;">
 
-                                        <div class="prog-docente-header">
-                                            <div class="prog-docente-avatar">LMS</div>
-                                            <div>
+                                        <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                                        <div class="pr-docente-img">
+                                            <img src="../imagenes/negocios/Mtra_Lorena_Moran_Samano.png" alt="Mtra. Lorena Morán Sámano">
+                                        </div>
+
+                                        <!-- COLUMNA DERECHA (CONTENIDO) -->
+                                        <div class="pr-docente-content">
+
+                                            <div class="pr-docente-header">
                                                 <h3>Mtra. Lorena Morán Sámano</h3>
                                                 <p>Directora Académica · Licenciatura en Mercadotecnia · UIC</p>
                                             </div>
-                                        </div>
 
-                                        <div class="prog-docente-body">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>FORMACIÓN ACADÉMICA</h4>
-                                                    <ul>
-                                                        <li>Licenciatura en Comunicación Social</li>
-                                                        <li>Licenciatura en Psicología</li>
-                                                        <li>Maestría en Mercadotecnia</li>
-                                                        <li>Especialidad en Publicidad en Medios Interactivos</li>
-                                                    </ul>
+                                            <div class="pr-docente-body">
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>FORMACIÓN ACADÉMICA</h4>
+                                                        <ul>
+                                                            <li>Licenciatura en Comunicación Social</li>
+                                                            <li>Licenciatura en Psicología</li>
+                                                            <li>Maestría en Mercadotecnia</li>
+                                                            <li>Especialidad en Publicidad en Medios Interactivos</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <h4>CERTIFICACIONES Y EVALUACIÓN</h4>
+                                                        <ul>
+                                                            <li>Docente certificada por ANFECA</li>
+                                                            <li>Certificate in Event Production · Procesa Group</li>
+                                                            <li>Par Evaluadora de programas académicos: CACECA, CIEES, CONAC</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div class="col">
-                                                    <h4>CERTIFICACIONES Y EVALUACIÓN</h4>
-                                                    <ul>
-                                                        <li>Docente certificada por ANFECA</li>
-                                                        <li>Certificate in Event Production · Procesa Group</li>
-                                                        <li>Par Evaluadora de programas académicos: CACECA, CIEES, CONAC</li>
-                                                    </ul>
+
+                                                <div class="row">
+                                                    <div class="col full">
+                                                        <h4>TRAYECTORIA PROFESIONAL</h4>
+                                                        <ul>
+                                                            <li>Asesora activa en estrategias de marketing, innovación de productos y endomarketing para PyMES nacionales e internacionales</li>
+                                                            <li>Experiencia en grandes empresas nacionales e internacionales como asesora de marketing y endomarketing</li>
+                                                            <li>Coautora en publicaciones del área de mercadotecnia</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>TRAYECTORIA PROFESIONAL</h4>
-                                                    <ul>
-                                                        <li>Asesora activa en estrategias de marketing, innovación de productos y endomarketing para PyMES nacionales e internacionales</li>
-                                                        <li>Experiencia en grandes empresas nacionales e internacionales como asesora de marketing y endomarketing</li>
-                                                        <li>Coautora en publicaciones del área de mercadotecnia</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col">
-                                                    <h4>LINEAS DE ESPECIALIDAD Y MATERIAS</h4>
-                                                    <ul>
-                                                        <li>Marketing 360 para PyMES</li>
-                                                        <li>Marketing en intangibles y psicología del consumidor</li>
-                                                        <li>Endomarketing organizacional</li>
-                                                        <li>Materias: Mercadotecnia · Comportamiento del Consumidor Final · Mercadotecnia Relacional</li>
-                                                    </ul>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
+
+
 
                                     <!-- CARDS -->
                                     <div class="program-cards">
@@ -995,7 +1182,7 @@
                                             </ul>
                                         </div>
 
-                                        <div class="program-card">
+                                        <!-- <div class="program-card">
                                             <h4>Ingresos estimados (DataMéxico / Indeed 2025)</h4>
                                             <ul>
                                                 <li><strong>Inicio:</strong> $7,500 – $12,000 / mes</li>
@@ -1003,7 +1190,7 @@
                                                 <li>Depende del puesto, industria y si se trabaja en agencia, empresa o consultoría propia</li>
                                                 <li>Fuente: Secretaría de Economía · Indeed MX · Michael Page 2025</li>
                                             </ul>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                     <!-- PREGUNTAS FRECUENTES -->
@@ -1017,10 +1204,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La UIC forma mercadólogos que saben tomar decisiones creativas basadas en números, no solo hacer contenido o campañas.
-                                                    La carrera equilibra la parte numérica con la creativa, y desde primeros semestres los alumnos trabajan con
-                                                    PyMES y empresas reales para la aplicación directa de conceptos.
+                                                    La diferencia principal es que la UIC forma <strong>mercadólogos capaces de tomar decisiones creativas basadas en números</strong>,
+                                                    no solo creadores de contenido o campañas. Nuestro programa destaca porque:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li>Logra un <strong>equilibrio estratégico </strong>entre la analítica numérica y el desarrollo creativo.</li>
+                                                    <li>Te conecta con el mundo laboral desde los primeros semestres trabajando con <strong>pymes y empresas reconocidas</strong>.</li>
+                                                    <li>Garantiza la <strong>aplicación directa de conceptos</strong> frente a retos empresariales auténticos.</li>
+                                                </ul>
+
                                             </div>
                                         </div>
 
@@ -1030,10 +1222,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    No necesariamente. La carrera integra estadística y analítica de datos de forma aplicada:
-                                                    el objetivo es que el mercadólogo sepa interpretar y usar los datos, no ser analista de datos.
-                                                    Se desarrolla habilidad para leer métricas, tomar decisiones con Big Data y comunicar resultados estratégicamente.
+                                                    <strong>No necesariamente</strong>. El objetivo de la carrera no es formarte como analista de
+                                                    datos o programador, sino como un estratega capaz de <strong>interpretar y utilizar los datos a tu favor</strong>.
+                                                    En la UIC desarrollarás habilidades para:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li>Integrar la <strong>estadística y la analítica de datos</strong> de forma 100% aplicada.</li>
+                                                    <li><strong>Leer métricas</strong> y tomar decisiones de negocio respaldadas por Big Data.</li>
+                                                    <li><strong>Comunicar resultados estratégicamente</strong> a clientes y mesas directivas.</li>
+                                                </ul>
                                             </div>
                                         </div>
 
@@ -1043,14 +1240,19 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    A quienes les gusta combinar lo analítico con lo creativo, entender el comportamiento del consumidor,
-                                                    manejar redes sociales para posicionamiento de marca —no solo contenido— y generar ideas sobre nuevos productos y servicios.
-                                                    También para quienes les interesen las relaciones públicas, la organización de eventos o las ventas.
+                                                    Este programa es ideal para personas que buscan combinar el pensamiento analítico con el creativo para dominar el comportamiento del consumidor.
+                                                    Te conviene estudiar aquí si te apasiona:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li><strong>Manejar redes sociales</strong> para el posicionamiento real de la marca (más allá de solo generar contenido).</li>
+                                                    <li>Idear, diseñar y lanzar <strong>nuevos productos y servicios</strong> al mercado.</li>
+                                                    <li>Desarrollarte en áreas de alto impacto como <strong>relaciones públicas, organización de eventos o dirección de ventas.</strong></li>
+                                                </ul>
+
                                             </div>
                                         </div>
 
-                                        <div class="faq-item">
+                                        <!-- <div class="faq-item">
                                             <button class="faq-question">
                                                 ¿Cuánto gana un mercadólogo egresado en México?
                                             </button>
@@ -1061,7 +1263,7 @@
                                                     Fuentes: DataMéxico (Secretaría de Economía), Indeed MX y Michael Page 2025.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                 </div>
@@ -1076,16 +1278,12 @@
 
                                         <!-- LEFT -->
                                         <div class="program-info">
-                                            <span class="program-label">POSTDOCTORADO EN</span>
-                                            <h2>Psicoanálisis Contemporáneo</h2>
+                                            <span class="program-label">LICENCIATURA EN</span>
+                                            <h2>Relaciones Comerciales Internacionales</h2>
 
                                             <p>
-                                                El nivel más alto de formación en psicoanálisis disponible en México:
-                                                para doctores en ejercicio que buscan las corrientes más recientes del campo.
-                                            </p>
-
-                                            <p class="program-highlight">
-                                                ➜ <span style="font-weight: bold;"> Cuerpo docente internacional de España, Chile y Argentina. 100% a distancia.</span>
+                                                Programa multidisciplinario que combina negocios internacionales, logística global, derecho aduanero, negociación intercultural y emprendimiento.
+                                                Los alumnos comienzan a trabajar desde el séptimo semestre. <!-- Salario inicial promedio: $25,000 mensuales — uno de los más altos de la División de Negocios. -->
                                             </p>
                                         </div>
 
@@ -1094,51 +1292,103 @@
                                             <h3>Datos del programa</h3>
 
                                             <ul>
-                                                <li><span>Nivel</span><strong>Postdoctorado</strong></li>
-                                                <li><span>Modalidad</span><strong>100% a distancia</strong></li>
-                                                <li><span>Duración</span><strong>3 semestres</strong></li>
-                                                <li><span>Requisito</span><strong>Grado de Doctor en área afín</strong></li>
-                                                <li><span>Director</span><strong>Dr. Roberto Vargas Arreola</strong></li>
+                                                <li><span>Nivel</span><strong>Licenciatura</strong></li>
+                                                <li><span>Modalidad</span><strong>Presencial</strong></li>
+                                                <li><span>Duración</span><strong>4años - 8 Meses</strong></li>
+                                                <li><span>Area</span><strong>Negocios</strong></li>
+                                                <li><span>Directora</span><strong>Mtra. Giannina Sampieri Laguna</strong></li>
                                             </ul>
                                         </div>
 
+                                    </div>
+
+                                    <div class="prog-docente-card horizontal" style="background-color: #144751;">
+
+                                        <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                                        <div class="pr-docente-img">
+                                            <img src="../imagenes/negocios/Mtra_Giannina_Sampieri_Laguna.png" alt="Mtra. Giannina Sampieri Laguna">
+                                        </div>
+
+                                        <!-- COLUMNA DERECHA (CONTENIDO) -->
+                                        <div class="pr-docente-content">
+
+                                            <div class="pr-docente-header">
+                                                <h3>Mtra. Giannina Sampieri Laguna</h3>
+                                                <p>Directora Divisional de Negocios · ex Directora Académica RCI · UIC</p>
+                                            </div>
+
+                                            <div class="pr-docente-body">
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>FORMACIÓN ACADÉMICA</h4>
+                                                        <ul>
+                                                            <li>Relaciones Internacionales · ITAM</li>
+                                                            <li>Maestría en Integración Europea · UAB–ITAM (Barcelona)</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <h4>CERTIFICACIONES Y EVALUACIÓN</h4>
+                                                        <ul>
+                                                            <li>Certificación académica ANFECA</li>
+                                                            <li>Autora de artículos en journals arbitrados sobre comercio y economía internacional</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col full">
+                                                        <h4>TRAYECTORIA PROFESIONAL</h4>
+                                                        <ul>
+                                                            <li>Gerente de Marketing y Planeación Estratégica · Asociación de Volkswagen</li>
+                                                            <li>Fundadora de dos negocios en los sectores café y joyería</li>
+                                                            <li>Directora Académica de RCI en la UIC</li>
+                                                            <li>Actualmente: Directora Divisional de Negocios, UIC</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <!-- CARDS -->
                                     <div class="program-cards">
 
                                         <div class="program-card">
-                                            <h4>EJES DE FORMACIÓN POSTDOCTORAL</h4>
+                                            <h4>¿QUÉ APRENDERÁS?</h4>
                                             <ul>
-                                                <li>Psicoanálisis relacional contemporáneo</li>
-                                                <li>Teorías intersubjetivas del self</li>
-                                                <li>Modelos del inconsciente actuales</li>
-                                                <li>Fronteras con las neurociencias</li>
-                                                <li>Investigación postdoctoral avanzada</li>
+                                                <li>Internacionalización de empresas y estrategia global</li>
+                                                <li>Logística internacional y cadena de suministro</li>
+                                                <li>Derecho aduanero, tributario y regulaciones de comercio exterior</li>
+                                                <li>Negociación intercultural y mercados regionales (Asia, Europa, América)</li>
+                                                <li>Análisis económico-financiero para transacciones internacionales</li>
+                                                <li>Emprendimiento nacional e internacional</li>
                                             </ul>
                                         </div>
 
                                         <div class="program-card">
-                                            <h4>PERFIL DEL PARTICIPANTE</h4>
+                                            <h4>CAMPO LABORAL</h4>
                                             <ul>
-                                                <li>Doctor en Psicoanálisis, Psicología o afines</li>
-                                                <li>Clínico activo con práctica consolidada</li>
-                                                <li>Interés en las vanguardias del campo</li>
-                                                <li>Académicos en búsqueda de actualización internacional</li>
-                                                <li>Investigadores del psicoanálisis</li>
+                                                <li>Empresas de comercio exterior (Freight Forwarder)</li>
+                                                <li>Agencias aduanales y empresas importadoras/exportadoras</li>
+                                                <li>Cámaras de comercio e instituciones internacionales</li>
+                                                <li>Multinacionales: áreas de compras, logística y estrategia</li>
+                                                <li>Sector público: Aduanas, Secretaría de Economía, Secretaría de Hacienda</li>
+                                                <li>Misiones diplomáticas como agregados comerciales o culturales</li>
                                             </ul>
                                         </div>
 
-                                        <div class="program-card">
-                                            <h4>VENTAJAS DEL PROGRAMA</h4>
+                                        <!-- <div class="program-card">
+                                            <h4>Ingresos estimados (DataMéxico / Indeed 2025)</h4>
                                             <ul>
-                                                <li>Docentes de España, Argentina y Chile</li>
-                                                <li>Modalidad 100% a distancia</li>
-                                                <li>Vinculación con IARPP y redes internacionales</li>
-                                                <li>Máximo nivel académico del campo en México</li>
-                                                <li>Proyección hacia publicación internacional</li>
+                                                <li><strong>Inicio:</strong> $7,500 – $12,000 / mes</li>
+                                                <li><strong>Con experiencia:</strong> $26,000 – $80,000 / mes</li>
+                                                <li>Depende del puesto, industria y si se trabaja en agencia, empresa o consultoría propia</li>
+                                                <li>Fuente: Secretaría de Economía · Indeed MX · Michael Page 2025</li>
                                             </ul>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                     <!-- PREGUNTAS FRECUENTES -->
@@ -1148,56 +1398,50 @@
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿Qué es un Postdoctorado en Psicoanálisis y para qué sirve?
+                                                ¿Qué hace un egresado de Relaciones Comerciales Internacionales de la UIC?
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Es el nivel de formación más alto en el campo psicoanalítico. Sirve para que
-                                                    doctores en ejercicio logren:
+                                                    Un egresado de RCI internacionaliza empresas mediante estrategias de planeación, gestión e implementación a nivel global.
+                                                    Su perfil operativo y estratégico le permite:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Actualizarse</strong> en corrientes recientes como el psicoanálisis relacional,
-                                                        intersubjetivo y neuropsicoanálisis.</li>
-                                                    <li><strong>Desarrollar proyectos</strong> de investigación de alto impacto.</li>
-                                                    <li><strong>Posicionarse</strong> como una autoridad académica en su especialidad.</li>
+                                                    <li><strong>Operar procesos de cadena de suministro</strong> y logística internacional para empresas nacionales y multinacionales.</li>
+                                                    <li><strong>Negociar con diferentes países y culturas</strong>, actuando como puente directo entre mercados comerciales.</li>
+                                                    <li><strong>Liderar proyectos</strong> que generan un impacto económico, ambiental y social positivo.</li>
                                                 </ul>
                                             </div>
                                         </div>
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿El Postdoctorado en Psicoanálisis de la UIC tiene docentes internacionales?
+                                                ¿La carrera de RCI incluye prácticas en aduanas?
                                             </button>
                                             <div class="faq-answer">
-                                                <p><strong>Sí</strong>. El cuerpo docente cuenta con expertos internacionales de primer nivel,
-                                                    entre ellos:
+                                                <p><strong>Sí, incluye prácticas colaborativas reales en aduanas y en comercio exterior</strong>.
+                                                    Esta inmersión profesional es guiada por una planta docente de especialistas activos en el sector, destacando a:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Dra. Laura Molet Estaper (España):</strong> Especialista en trastornos
-                                                        alimentarios.</li>
-                                                    <li><strong>Dr. André Sassenfeld (Chile):</strong> Autor de nueve libros sobre psicoanálisis
-                                                        relacional.</li>
-                                                    <li><strong>Dra. Eva Rotenberg (Argentina):</strong> Psicoanalista especialista en niños,
-                                                        adolescentes y familias.</li>
+                                                    <li><strong>Dr. Jorge Javier Rodríguez Puig:</strong> Experto con despacho propio en temas aduaneros.</li>
+                                                    <li><strong>Mtro. Jorge Alberto Soria:</strong> Autor de libros sobre Derecho Aduanero con amplia experiencia en agencias aduanales.</li>
                                                 </ul>
                                             </div>
                                         </div>
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿Se puede estudiar el Postdoctorado sin dejar de trabajar?
+                                                ¿En qué se diferencia RCI de Negocios Internacionales o Comercio Exterior?
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>Sí</strong>. El programa está diseñado para profesionales con agendas de alta
-                                                    exigencia, ofreciendo:
+                                                    La principal diferencia es que <strong>RCI en la UIC es multidisciplinaria</strong>, combinando un programa robusto y actualizado en cuatro grandes áreas:
+                                                    <strong>negocios internacionales, logística, relaciones internacionales y emprendimiento</strong>.
+                                                    Destaca además por:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li> <strong>Modalidad 100% a distancia.</strong></li>
-                                                    <li> Duración estructurada en <strong>tres semestres.</strong></li>
-                                                    <li> Flexibilidad para mantener activa tanto la <strong>práctica clínica</strong> como la
-                                                        <strong>actividad académica</strong>.
-                                                    </li>
+                                                    <li>Una planta docente con experiencia profesional directa en el sector.</li>
+                                                    <li>Prácticas reales en aduanas durante la formación.</li>
+                                                    <li><strong>Inserción laboral acelerada:</strong> Los alumnos comienzan a trabajar desde el séptimo semestre.</li>
                                                 </ul>
 
                                             </div>
@@ -1215,16 +1459,12 @@
 
                                         <!-- LEFT -->
                                         <div class="program-info">
-                                            <span class="program-label">POSTDOCTORADO EN</span>
-                                            <h2>Psicoanálisis Contemporáneo</h2>
-
+                                            <span class="program-label">LICENCIATURA EN</span>
+                                            <h2>Administración de Negocios Turísticos</h2>
                                             <p>
-                                                El nivel más alto de formación en psicoanálisis disponible en México:
-                                                para doctores en ejercicio que buscan las corrientes más recientes del campo.
-                                            </p>
-
-                                            <p class="program-highlight">
-                                                ➜ <span style="font-weight: bold;"> Cuerpo docente internacional de España, Chile y Argentina. 100% a distancia.</span>
+                                                Forma líderes capaces de diseñar y operar modelos de negocio innovadores en el sector turístico:
+                                                hotelería, gastronomía, eventos MICE, agencias de viajes y turismo sostenible.
+                                                Incluye 5 certificaciones profesionales, prácticas internacionales y experiencias reales desde el primer semestre.
                                             </p>
                                         </div>
 
@@ -1233,53 +1473,108 @@
                                             <h3>Datos del programa</h3>
 
                                             <ul>
-                                                <li><span>Nivel</span><strong>Postdoctorado</strong></li>
-                                                <li><span>Modalidad</span><strong>100% a distancia</strong></li>
-                                                <li><span>Duración</span><strong>3 semestres</strong></li>
-                                                <li><span>Requisito</span><strong>Grado de Doctor en área afín</strong></li>
-                                                <li><span>Director</span><strong>Dr. Roberto Vargas Arreola</strong></li>
+                                                <li><span>Nivel</span><strong>Licenciatura</strong></li>
+                                                <li><span>Modalidad</span><strong>Presencial</strong></li>
+                                                <li><span>Duración</span><strong>4 años - 8 semestres</strong></li>
+                                                <li><span>Area</span><strong>división de Negocios</strong></li>
+                                                <li><span>Directora</span><strong>Mtra. Claudia Vara López</strong></li>
                                             </ul>
                                         </div>
 
                                     </div>
+
+                                    <div class="prog-docente-card horizontal" style="background-color: #664916;">
+
+                                        <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                                        <div class="pr-docente-img">
+                                            <img src="../imagenes/negocios/Mtra_Claudia_Vara_Lopez.png" alt="Mtra. Claudia Vara López">
+                                        </div>
+
+                                        <!-- COLUMNA DERECHA (CONTENIDO) -->
+                                        <div class="pr-docente-content">
+
+                                            <div class="pr-docente-header">
+                                                <h3>Mtra. Claudia Vara López</h3>
+                                                <p>Directora Académica · Licenciatura en Administración de Negocios Turísticos · UIC</p>
+                                            </div>
+
+                                            <div class="pr-docente-body">
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>FORMACIÓN ACADÉMICA</h4>
+                                                        <ul>
+                                                            <li>Maestría en Gestión de Turismo y afines</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col">
+                                                        <h4>CERTIFICACIONES INTERNACIONALES</h4>
+                                                        <ul>
+                                                            <li>Certified Meeting Specialist (CMS)</li>
+                                                            <li>Certified in Congress Management (CCM)</li>
+                                                            <li>Certificación Docente ANFECA</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col full">
+                                                        <h4>TRAYECTORIA PROFESIONAL</h4>
+                                                        <ul>
+                                                            <li>Más de 30 años de gestión académica en programas de turismo y hospitalidad</li>
+                                                            <li>FParticipación activa en asociaciones profesionales del sector turístico y educativo nacional</li>
+                                                            <li>Presencia en eventos especializados del sector turístico con énfasis en turismo de reuniones (MICE)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                     <!-- CARDS -->
                                     <div class="program-cards">
 
                                         <div class="program-card">
-                                            <h4>EJES DE FORMACIÓN POSTDOCTORAL</h4>
+                                            <h4>¿QUÉ APRENDERÁS?</h4>
                                             <ul>
-                                                <li>Psicoanálisis relacional contemporáneo</li>
-                                                <li>Teorías intersubjetivas del self</li>
-                                                <li>Modelos del inconsciente actuales</li>
-                                                <li>Fronteras con las neurociencias</li>
-                                                <li>Investigación postdoctoral avanzada</li>
+                                                <li>Administración financiera y marketing turístico</li>
+                                                <li>Organización de eventos, congresos y convenciones (MICE)</li>
+                                                <li>Gestión hotelera y operación de alojamiento</li>
+                                                <li>Preparación de alimentos, bebidas y gastronomía</li>
+                                                <li>Desarrollo turístico sustentable y patrimonio cultural</li>
+                                                <li>Diseño y comercialización de productos turísticos</li>
+                                                <li>Turismo digital: plataformas, reservaciones y redes sociales</li>
                                             </ul>
                                         </div>
 
                                         <div class="program-card">
-                                            <h4>PERFIL DEL PARTICIPANTE</h4>
+                                            <h4>CAMPO LABORAL</h4>
                                             <ul>
-                                                <li>Doctor en Psicoanálisis, Psicología o afines</li>
-                                                <li>Clínico activo con práctica consolidada</li>
-                                                <li>Interés en las vanguardias del campo</li>
-                                                <li>Académicos en búsqueda de actualización internacional</li>
-                                                <li>Investigadores del psicoanálisis</li>
+                                                <li>Hoteles, resorts y cadenas hoteleras nacionales e internacionales</li>
+                                                <li>Restaurantes, empresas de catering y servicios gastronómicos</li>
+                                                <li>Agencias de viajes, touroperadoras y plataformas de reservaciones</li>
+                                                <li>Empresas organizadoras de eventos y recintos feriales</li>
+                                                <li>Aerolíneas, cruceros y parques temáticos</li>
+                                                <li>Dependencias federales, estatales y municipales de turismo</li>
+                                                <li>Consultoría turística y organismos de promoción</li>
                                             </ul>
                                         </div>
 
                                         <div class="program-card">
-                                            <h4>VENTAJAS DEL PROGRAMA</h4>
+                                            <h4>5 Certificaciones incluidas</h4>
                                             <ul>
-                                                <li>Docentes de España, Argentina y Chile</li>
-                                                <li>Modalidad 100% a distancia</li>
-                                                <li>Vinculación con IARPP y redes internacionales</li>
-                                                <li>Máximo nivel académico del campo en México</li>
-                                                <li>Proyección hacia publicación internacional</li>
+                                                <li>Certified Meeting Specialist (CMS)</li>
+                                                <li>Certified in Congress Management (CCM)</li>
+                                                <li>Certificación CANIRAC (sector restaurantero)</li>
+                                                <li>Diplomado en Yield y Revenue Management</li>
+                                                <li>Certificación Docente ANFECA (para quienes proyectan docencia)</li>
                                             </ul>
                                         </div>
 
                                     </div>
+
                                     <!-- PREGUNTAS FRECUENTES -->
                                     <div class="faq-section">
 
@@ -1287,58 +1582,70 @@
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿Qué es un Postdoctorado en Psicoanálisis y para qué sirve?
+                                                ¿Qué hace un egresado de la Licenciatura en Administración de Negocios Turísticos de la UIC?
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Es el nivel de formación más alto en el campo psicoanalítico. Sirve para que
-                                                    doctores en ejercicio logren:
+                                                    Un egresado es un <string>profesional versátil que coordina, desarrolla y gestiona</string> proyectos y
+                                                    servicios turísticos a nivel global. Su visión administrativa, humana y sostenible le permite triunfar en:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Actualizarse</strong> en corrientes recientes como el psicoanálisis relacional,
-                                                        intersubjetivo y neuropsicoanálisis.</li>
-                                                    <li><strong>Desarrollar proyectos</strong> de investigación de alto impacto.</li>
-                                                    <li><strong>Posicionarse</strong> como una autoridad académica en su especialidad.</li>
+                                                    <li><strong>Sectores múltiples:</strong> Empresas privadas, instituciones del sector público o mediante emprendimientos propios.</li>
+                                                    <li><strong>Gestión global:</strong> Dirección de empresas internacionales de viajes y consultoría turística.</li>
+                                                    <li><strong>Desarrollo experiencial:</strong> Organización de eventos de alto impacto y gestión gastronómica.</li>
                                                 </ul>
                                             </div>
                                         </div>
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿El Postdoctorado en Psicoanálisis de la UIC tiene docentes internacionales?
+                                                ¿En qué se diferencia la LANT de otras carreras de turismo?
                                             </button>
                                             <div class="faq-answer">
-                                                <p><strong>Sí</strong>. El cuerpo docente cuenta con expertos internacionales de primer nivel,
-                                                    entre ellos:
+                                                <p>
+                                                    La diferencia principal radica en la <strong>inmersión práctica inmediata y la alta especialización profesional</strong>.
+                                                    En la UIC destacas frente a otros egresados porque:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Dra. Laura Molet Estaper (España):</strong> Especialista en trastornos
-                                                        alimentarios.</li>
-                                                    <li><strong>Dr. André Sassenfeld (Chile):</strong> Autor de nueve libros sobre psicoanálisis
+                                                    <li>Participas en <strong>eventos y congresos reales</strong>(nacionales e internacionales) desde tu primer semestre.</li>
+                                                    <li>Puedes obtener hasta<strong>5 certificaciones profesionales</strong> a lo largo de tu licenciatura.
                                                         relacional.</li>
-                                                    <li><strong>Dra. Eva Rotenberg (Argentina):</strong> Psicoanalista especialista en niños,
-                                                        adolescentes y familias.</li>
+                                                    <li>Aprendes de una<strong>planta docente activa y experta:</strong> desde Front Office Managers de cadenas como Hilton, hasta directores de restaurantes y
+                                                        productores de eventos.</li>
                                                 </ul>
                                             </div>
                                         </div>
 
                                         <div class="faq-item">
                                             <button class="faq-question">
-                                                ¿Se puede estudiar el Postdoctorado sin dejar de trabajar?
+                                                ¿La carrera incluye prácticas internacionales?
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>Sí</strong>. El programa está diseñado para profesionales con agendas de alta
-                                                    exigencia, ofreciendo:
+                                                    <strong>Sí, la formación global es un pilar de la carrera.</strong>. El plan de estudios está diseñado para proyectar tu perfil al extranjero mediante:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li> <strong>Modalidad 100% a distancia.</strong></li>
-                                                    <li> Duración estructurada en <strong>tres semestres.</strong></li>
-                                                    <li> Flexibilidad para mantener activa tanto la <strong>práctica clínica</strong> como la
-                                                        <strong>actividad académica</strong>.
-                                                    </li>
+                                                    <li><strong>Prácticas profesionales (6to semestre):</strong> Trabajarás en empresas clave del sector turístico, ya sean nacionales o internacionales.</li>
+                                                    <li><strong>Inmersión en la industria:</strong> Participarás activamente en congresos y ferias turísticas internacionales como parte de tu formación académica práctica.</li>
                                                 </ul>
 
+                                            </div>
+                                        </div>
+
+                                        <div class="faq-item">
+                                            <button class="faq-question">
+                                                ¿A quién le conviene estudiar Negocios Turísticos?
+                                            </button>
+                                            <div class="faq-answer">
+                                                <p>
+                                                    Este programa es ideal para jóvenes con <strong>espíritu emprendedor, habilidades de organización y que disfrutan genuinamente el trato humano</strong>.
+                                                    Te conviene estudiar LANT si te apasiona:
+                                                </p>
+                                                <ul class="lista-fa">
+                                                    <li>Descubrir y explorar <strong>destinos, tradiciones y gastronomía</strong>, con disposición para aprender idiomas.</li>
+                                                    <li><strong>Planear, coordinar y administrar</strong> la logística detrás de grandes eventos y experiencias memorables.</li>
+                                                    <li>Aprovechar las nuevas tecnologías para innovar dentro del sector turístico.</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1357,11 +1664,11 @@
                     <span class="docentes-label">AUTORIDAD ACADÉMICA</span>
                     <h2 class="docentes-title">Cuerpo docente</h2>
                     <p class="docentes-desc">
-                        Profesores-investigadores activos con práctica clínica vigente y producción académica reconocida a nivel nacional e internacional.
+                        Profesores activos en la industria, con trayectoria ejecutiva comprobable, publicaciones y certificaciones nacionales e internacionales.
                     </p>
 
                     <!-- DESTACADO -->
-                    <div class="docente-destacado">
+                    <!-- <div class="docente-destacado">
                         <div class="docente-img">
                             <img src="./imagenes/Midelvia.jpg" alt="" width="100%">
                         </div>
@@ -1381,103 +1688,129 @@
                                 Referente en psicología clínica, vínculo afectivo y salud mental dentro de la comunidad UIC.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- GRID DOCENTES -->
                     <div class="docentes-grid">
 
                         <div class="docente-card">
-                            <h4>Mtra. Alejandra López Valenzuela</h4>
-                            <span>Directora · Licenciatura en Psicología</span>
+                            <h4>Dra. Georgina Ivonne Ramírez Esquivel</h4>
+                            <span>Maestría en Contaduría — Socia Fundadora</span>
                             <p>
-                                Evaluación e intervención psicoeducativa.
-                                Coordinadora clínica del Centro ASI — 5 años de trabajo
-                                especializado con personas con condición autista y +19 años de docencia.
-                                Coautora de Autismo, subjetividad e intervención psicoanalítica.
+                                Asesor fiscal independiente con 30 años. Ex coordinadora del área fiscal UNAM.
+                                Síndico ante el SAT de la FCA-UNAM.
+                                Articulista con más de 100 artículos en la Revista Consultorio Fiscal (FCA-UNAM).
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dr. Roberto Vargas Arreola</h4>
-                            <span>Director · Posgrados en Psicoanálisis</span>
+                            <h4>Mtra. Rosa María Acevedo Salazar</h4>
+                            <span>Maestría en Administración Estratégica e Innovación</span>
                             <p>
-                                Psicoanálisis relacional, pareja y familia contemporáneas.
-                                Miembro IARPP, vocal AMPPR, secretario suplente CNPC.
-                                Autor del instrumento PRAD y los libros La piel del mundo y La Dignidad Compartida.
-                                Director de Dasein: Espacio de Psicoterapia.
+                                Directora de operaciones. Especialista en consultoría administrativa,
+                                estrategias fiscales y tecnología contable. Materias: RRHH y obligaciones laborales ·
+                                Consolidación de estados financieros · Contabilidad administrativa.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dra. Daniela Flores Mosri</h4>
-                            <span>Doctorado en Psicoanálisis Contemporáneo</span>
+                            <h4>Mtra. Diana del Carmen Pérez Herrera</h4>
+                            <span>Maestría en Administración de Negocios</span>
                             <p>
-                                Neuropsicoanálisis. Editora en jefe del Journal Neuropsychoanalysis (2021).
-                                Coordinadora regional IARPP México. Ex-SNI.
+                                Consultora en dirección estratégica. Project Manager en diagnóstico organizacional,
+                                planeación estratégica y rediseño de modelos de negocio.
+                                Materias: Consultoría Empresarial · Incubación y Modelos de Negocio · Proyectos de Inversión.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dr. José Ángel Aguilar Gil</h4>
-                            <span>Doctorado en Psicoanálisis</span>
+                            <h4>Mtra. Adriana Rodríguez Domínguez</h4>
+                            <span>Maestría en Administración de Negocio</span>
                             <p>
-                                Psicoanálisis grupal y relacional, sexualidad humana.
-                                Fundador del Capítulo Mexicano de la IARPP. Presidente de la AMPPR.
+                                Estadística aplicada a los negocios, análisis cuantitativo, planeación y control de gestión.
+                                Materias: Estadística · Estadística Aplicada a los Negocios · Planeación y Control de la Gestión ·
+                                Proyectos de Negocios.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dr. André Sassenfeld</h4>
-                            <span>Doctor en Psicoanálisis (Chile)</span>
+                            <h4>Dra. Verónica Gutiérrez Pérez Del Valle</h4>
+                            <span>Doctorado — Directora de PleniaMente</span>
                             <p>
-                                Trauma, corporalidad, psicoanálisis relacional. Autor de 9 libros.
-                                Past president IARPP Chile. Director CETERE.
+                                Neuromarketing, psicología del consumidor e investigación de mercados BtC y BtB.
+                                Certificada en neuromarketing. Reconocida con distinciones nacionales e internacionales.
+                                Dirección de tesis en innovación curricular.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dra. Laura Molet Estaper</h4>
-                            <span>Postdoctorado en Psicoanálisis (España)</span>
+                            <h4>Alberto Sánchez Montiel</h4>
+                            <span>Content CEO · Marketing Digital · Data Driven</span>
                             <p>
-                                Trastornos alimentarios, psicoanálisis contemporáneo.
-                                Autora de El dolor es sordo, traducido al inglés.
+                                Director Editorial de Revista InformaBTL — medio líder en BTL y retail en Latinoamérica.
+                                Miembro de comités de marketing en IAB México y Asociación de Internet.
+                                SEO estratégico para empresas nacionales. Materias: Mercadotecnia de Contenidos · E-Commerce.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dra. Liliana Rivera Fong</h4>
-                            <span>Doctorado en Psicología y Salud (UNAM)</span>
+                            <h4>Embajador Eduardo Roldán Acosta</h4>
+                            <span>Doctor — Relaciones Internacionales y Derecho</span>
                             <p>
-                                Psicooncología, TCC, medicina conductual.
-                                Miembro del SNI Nivel 1 (2025–2029).
-                                Tutora de maestría y doctorado UNAM.
+                                Embajador en múltiples países. Más de 32 publicaciones en relaciones internacionales y
+                                negocios internacionales. Materia: Mercados Regionales con Asia.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dra. Leonor García Gómez</h4>
-                            <span>Doctorado en Ciencias Biológicas y de la Salud</span>
+                            <h4>Dr. Jorge Javier Rodríguez Puig</h4>
+                            <span>Doctor — Derecho Tributario y Aduanero</span>
                             <p>
-                                Neuropsicología, tabaquismo, conducta alimentaria.
-                                SNI Nivel 1. Locutora " Chill Pill" en Ibero 90.9 FM. 31 artículos científicos.
+                                Titular de despacho de abogados en temas comerciales y aduaneros.
+                                Conferencista en temas aduaneros. Materias: Taller de Logística · Derecho Tributario ·
+                                Derecho Aduanero · Valoración y Clasificación Arancelaria.
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dr. Gerardo Mora</h4>
-                            <span>Doctor en Psicoanálisis — Grupos e Instituciones</span>
+                            <h4>Jonathan Manzano Bautista</h4>
+                            <span>Maestría — Front Office Manager Hilton</span>
                             <p>
-                                Patologías graves, dispositivos grupales.
-                                Colaborador en Canal 11, RadioFórmula y Radio UNAM. Coautor 2023.
+                                26+ años en sector servicios. 16 años como Director de División Cuartos en Grupo Sevilla.
+                                Equipo apertura Camino Real Pedregal. Gerente de servicio a huéspedes más joven de Fiesta Inn.
+                                Certificado en Alta Dirección Hotelera y Revenue Management, Universidad Glion (Suiza).
                             </p>
                         </div>
 
                         <div class="docente-card">
-                            <h4>Dr. William Alves de Oliveira</h4>
-                            <span>Doctorado — Director Centro Medicina Conductual</span>
+                            <h4>Adrián Alatriste Mendoza</h4>
+                            <span>MBA — Coach Empresarial Restaurantero</span>
                             <p>
-                                Trastornos alimentarios, psicoanálisis contemporáneo.
-                                Autora de El dolor es sordo, traducido al inglés.
+                                Director administrativo del Restaurante Mexicano Masaryk.
+                                Director de operaciones Puerto San Jerónimo. Instructor avalado por CANIRAC.
+                                Coautor de la 1ª Guía de Negocios de Restaurantes,
+                                Revista Entrepreneur México. 25+ años en sector restaurantero.
+                            </p>
+                        </div>
+
+                        <div class="docente-card">
+                            <h4>José Joaquín Yáñez García</h4>
+                            <span>Maestría Alta Dirección (Anáhuac) — Director General</span>
+                            <p>
+                                Socio fundador de Beat Meetings, Groove Studio, The Jam Center y Cerveceros de Autor.
+                                25+ años de experiencia profesional. Diplomado en Creatividad, Academia Mexicana de Creatividad.
+                                Materia: Seminario de Producción de Eventos.
+                            </p>
+                        </div>
+
+                        <div class="docente-card">
+                            <h4>Dra. María Verónica Aller Díaz</h4>
+                            <span>Doctorado en Historia del Arte (Casa Lamm)</span>
+                            <p>
+                                ExUIC 6ª generación. Maestría en Historia de México (ULA).
+                                Diplomado en Estrategias Tecnológicas Pedagógicas (Anáhuac Sur).
+                                Articulista en CNNExpansión y revistas UIC y Anáhuac.
+                                Materias: Interpretación Turística del Patrimonio · Desarrollo Turístico Sustentable.
                             </p>
                         </div>
 
@@ -1555,214 +1888,6 @@
                     </div>
 
                 </div>
-            </section>
-
-            <!-- SECCION CLINICAS -->
-            <section class="clinicas-section" id="clinicas">
-                <div class="container">
-                    <span class="section-label">DONDE SUCEDE LA PRÁCTICA</span>
-                    <div class="imagen-box">
-
-                        <h2 class="section-title">Clínicas universitarias<br>de práctica real</h2>
-
-                        <p class="section-description clinic">
-                            La UIC no simula la clínica: la ofrece. Los estudiantes atienden población real desde los primeros semestres,
-                            con supervisión directa de profesores clínicos activos.
-                        </p>
-                    </div>
-                    <!-- GRID -->
-                    <div class="clinicas-grid">
-
-                        <!-- CARD 1 -->
-                        <div class="clinica-card">
-                            <div class="clinica-header">
-                                <i class="fas fa-city header-icon"></i>
-                                <div class="header-text">
-                                    <h3>Centro de Atención a la Salud Integral <br> <span>ASI · UIC</span></h3>
-
-                                </div>
-                            </div>
-
-                            <div class="clinica-body">
-                                <p>
-                                    Centro de práctica clínica supervisada coordinado por la Mtra. Alejandra López Valenzuela,
-                                    donde estudiantes de la Licenciatura en Psicología atienden a personas con condición autista,
-                                    niños y adolescentes con situaciones de maltrato físico y emocional, y población general.
-                                    Incluye el Área de Evaluación Psicológica y seguimiento a estudiantes de la propia universidad..
-                                </p>
-                                <hr>
-                                <div class="clinica-tags">
-                                    <span>Condición autista</span>
-                                    <span>Niños y adolescentes</span>
-                                    <span>Evaluación psicológica</span>
-                                    <span>Coord. Mtra. Alejandra López</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- CARD 2 -->
-                        <div class="clinica-card">
-                            <div class="clinica-header">
-                                <i class="fas fa-city header-icon"></i>
-                                <div class="header-text">
-                                    <h3>Centro Universitario de Atención a la Infancia <span> CUAI · UIC</span></h3>
-
-                                </div>
-                            </div>
-
-                            <div class="clinica-body">
-                                <p>
-                                    Centro especializado en atención psicológica y educativa a niños y jóvenes con condición autista y psicótica.
-                                    Es la primera clínica de autismo dentro de una institución educativa en México, con más de 33 años de operación.
-                                    Su director clínico académico es el Mtro. Fernando Fernández Castro.
-                                </p>
-                                <br>
-                                <hr>
-                                <div class="clinica-tags">
-                                    <span>Condición autista y psicótica</span>
-                                    <span>+33 años de operación</span>
-                                    <span>Primera en México</span>
-                                    <span>Dir. Mtro. Fernández Castro</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- CARD FULL -->
-                    <div class="clinica-card full">
-
-                        <div class="clinica-header">
-                            <i class="fas fa-city header-icon"></i>
-                            <div class="header-text">
-                                <h3>Clínica Universitaria de Psicoterapia Psicoanalítica <br><span>CUPPIE · UIC</span></h3>
-
-                            </div>
-                        </div>
-
-                        <div class="clinica-body">
-                            <p>
-                                Espacio de práctica clínica supervisada en psicoterapia psicoanalítica donde alumnos de la Maestría
-                                atienden pacientes reales bajo la coordinación del Dr. Roberto Reyes,
-                                Psiquiatra y Doctor en Psicoanálisis Contemporáneo. Ofrece atención comunitaria accesible con encuadre psicoanalítico riguroso.
-                            </p>
-                            <br>
-                            <hr>
-                            <div class="clinica-tags">
-                                <span>Psicoterapia psicoanalítica</span>
-                                <span>Supervisión didáctica</span>
-                                <span>Atención comunitaria</span>
-                                <span>Coord. Dr. Roberto Reyes</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- TEXTO FINAL -->
-                    <div class="clinica-footer">
-                        <h3>¿Por qué importa la clínica real?</h3>
-                        <p>
-                            La UIC opera tres centros de práctica con población real: el Centro ASI para evaluación y psicoterapia general,
-                            el CUAI especializado en infancia con condición autista — primera clínica de este tipo dentro de una universidad en México,
-                            con más de 33 años — y la CUPPIE donde los alumnos de la Maestría hacen psicoterapia psicoanalítica supervisada.
-                            No simulaciones: casos reales desde los primeros semestres.
-                        </p>
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- SECCION RECONOCIMIENTOS-->
-            <section class="reconocimientos-section" id="reconocimientos">
-
-                <div class="container">
-
-                    <span class="reconocimientos-label">RECONOCIMIENTOS Y MEMBRESÍAS</span>
-                    <h2 class="reconocimientos-title">Respaldo institucional y académico</h2>
-                    <p class="reconocimientos-desc">
-                        La UIC forma parte de redes académicas internacionales de primer nivel.
-                        Para el estudiante, esto significa acceso a comunidades de práctica, congresos, publicaciones y formación de talla mundial.
-                    </p>
-
-                    <!-- GRID reconocimientos -->
-                    <div class="reconocimientos-grid">
-
-                        <div class="reconocimiento-card">
-                            <h4>IARPP</h4>
-                            <span>International Association for Relational Psychoanalysis and Psychotherapy</span>
-                            <p>
-                                Organización internacional de referencia en psicoanálisis relacional.
-                                La UIC es la única institución mexicana con afiliación activa y capítulo propio.
-                            </p>
-                        </div>
-
-                        <div class="reconocimiento-card">
-                            <h4>DAMPPR</h4>
-                            <span>Asociación Mexicana de Psicoterapia Psicoanalítica Relacional</span>
-                            <p>
-                                Asociación nacional que nuclea a los principales formadores en psicoterapia psicoanalítica de México.
-                                Docentes UIC son miembros fundadores y directivos.
-                            </p>
-                        </div>
-
-                        <div class="reconocimiento-card">
-                            <h4>CNPC</h4>
-                            <span>Colegio Nacional de Psicoanalistas Clínicos</span>
-                            <p>
-                                Organismo de certificación y ética para psicoanalistas clínicos en México.
-                                El Dr. Vargas Arreola funge como secretario suplente; varios docentes UIC son miembros activos.
-                            </p>
-                        </div>
-
-                        <div class="reconocimiento-card">
-                            <h4>SNI</h4>
-                            <span>Sistema Nacional de Investigadores CONAHCyT</span>
-                            <p>
-                                Varios docentes del cuerpo académico UIC son miembros del SNI Nivel 1,
-                                el máximo reconocimiento a investigadores activos en México.
-                            </p>
-                        </div>
-
-                        <div class="reconocimiento-card">
-                            <h4>SEP</h4>
-                            <span>Reconocimiento de Validez Oficial de Estudios</span>
-                            <p>
-                                Todos los programas de la UIC cuentan con RVOE otorgado por la Secretaría de Educación Pública.
-                                Tus estudios tienen plena validez oficial en México.
-                            </p>
-                        </div>
-
-                        <div class="reconocimiento-card">
-                            <h4>+45</h4>
-                            <span>Años formando psicólogos y psicoanalistas en México</span>
-                            <p>
-                                Trayectoria que respalda la solidez académica y la red de egresados activos en todo el país y Latinoamérica.
-                            </p>
-                        </div>
-                    </div>
-                    <br>
-                    <!-- DESTACADO -->
-                    <div class="reconocimiento-destacado">
-                        <div class="reconocimiento-info">
-                            <h3>RVOE</h3>
-                            <span class="reconocimiento-cargo">
-                                Validez oficial SEP en todos los programas
-                            </span>
-
-                            <p>
-                                La Licenciatura en Psicología, la Maestría en Psicoterapia Psicoanalítica,
-                                el Doctorado en Psicoanálisis y el Postdoctorado en Psicoanálisis Contemporáneo cuentan con
-                                Reconocimiento de Validez Oficial de Estudios de la Secretaría de Educación Pública.
-                                <br>
-                                <br>
-                                <span class="reconocimiento-cargo" style="color: #fdcb70;">
-                                    Tus estudios son reconocidos en todo México.
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
             </section>
 
         </main>
@@ -1910,7 +2035,7 @@
         <!-- ==================== MENÚ LATERAL IZQUIERDO (SIDE MENU) ==================== -->
         <?php include '../layout/menu.php'; ?>
 </body>
-<script src="./js/aside_menu.js"></script>
-<script src="./js/script_all.js"></script>
+<script src="../js/aside_menu.js"></script>
+<script src="../js/script_all.js"></script>
 
 </html>

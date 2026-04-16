@@ -335,6 +335,32 @@ body{
     color:#268193;
 }
 
+.subnav-inner a.AD:before{
+    content:"•";
+    color:#2e5b9f;
+}
+.subnav-inner a.CO:before{
+    content:"•";
+    color:#35825f;
+}
+.subnav-inner a.ME:before{
+    content:"•";
+    color:#d35d23;
+}
+.subnav-inner a.RC:before{
+    content:"•";
+    color:#258193;
+}
+.subnav-inner a.TU:before{
+    content:"•";
+    color:#b98328;
+}
+.subnav-inner a.P:before{
+    content:"•";
+    color:#135955;
+}
+
+
 /* hover */
 .subnav-inner a:hover{
     color:#064c23;

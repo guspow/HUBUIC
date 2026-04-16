@@ -345,7 +345,8 @@
     }
 
     .hero-line{
-        position: relative;
+        /* position: relative; */
+        bottom: 5px;
     }
 
     .stats-grid{

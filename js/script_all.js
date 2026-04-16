@@ -20,11 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
     maestria: "#fab74a",
     doctorado: "#425584",
     postdoctorado: "#125955",
-    administracion: "#fab74a",
-    contaduria: "#83bc41",
-    mercadotecnia: "#425584",
-    rci: "#125955",
-    turismo: "#268193",
+    administracion: "#2e5b9f",
+    contaduria: "#35825f",
+    mercadotecnia: "#d35d23",
+    rci: "#258193",
+    turismo: "#b98328",
   };
 
   /* =========================
