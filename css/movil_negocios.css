@@ -178,6 +178,53 @@
         min-height: 500px;
     }
 
+    /* CONTENEDOR: sigue horizontal pero más compacto */
+    .prog-docente-card.horizontal{
+        flex-direction:row;
+    }
+
+    /* IMAGEN más chica */
+    .pr-docente-img{
+        width:220px;
+        min-width:220px;
+    }
+
+    .pr-docente-img img{
+        object-fit:cover;
+        object-position:top;
+    }
+
+    /* CONTENIDO */
+    .pr-docente-content{
+        padding:20px 25px;
+    }
+
+    /* HEADER */
+    .pr-docente-header h3{
+        font-size:26px;
+    }
+
+    .pr-docente-header p{
+        font-size:18px;
+        margin-bottom:20px;
+    }
+
+    /* GRID INTERNO */
+    .pr-docente-body .row{
+        gap:25px;
+        margin-bottom:20px;
+    }
+
+    /* LISTAS */
+    .pr-docente-body li{
+        font-size:16px;
+    }
+
+    /* TITULOS */
+    .pr-docente-body h4{
+        font-size:18px;
+    }
+
 }
 
 /* MOBILE */
@@ -855,65 +902,61 @@
         font-size:15px;
     }
 
-    /* .prog-docente-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-    }
-
-    .prog-docente-avatar {
-        width: 80px;
-        height: 80px;
-    }
-
-    .prog-docente-body .row {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .prog-docente-card {
-        padding: 20px 15px;
-    }
-
-    .prog-docente-body h4 {
-        font-size: 14px;
-    }
-
-    .prog-docente-body li {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    .prog-docente-body .col {
-        width: 100%;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-        padding-bottom: 15px;
-    }
-
-    .prog-docente-body .col:last-child {
-        border-bottom: none;
-    } */
-
-
-    .pr-docente-card.horizontal{
+    /* CONTENEDOR: ahora vertical */
+    .prog-docente-card.horizontal{
         flex-direction:column;
     }
 
+    /* IMAGEN: ocupa todo el ancho */
     .pr-docente-img{
-        width:100%;
-        height:250px;
+        /* width:100%;
+        min-width:100%;
+        height:250px; */
+        min-width:100%;
+        display:flex;
+        justify-content:center; /* centro horizontal */
+        align-items:center; 
     }
 
+    .pr-docente-img img{
+        width:50%;
+        height:100%;
+        object-fit:cover;
+        object-position:top; /* 👈 enfoca el rostro */
+        margin: 3% 30% 0;
+    }
+
+    /* CONTENIDO */
     .pr-docente-content{
         padding:20px;
     }
 
+    /* HEADER */
+    .pr-docente-header h3{
+        font-size:22px;
+        line-height:1.2;
+    }
+
+    .pr-docente-header p{
+        font-size:16px;
+        margin-bottom:20px;
+    }
+
+    /* GRID → ahora en columna */
     .pr-docente-body .row{
         flex-direction:column;
         gap:20px;
+        margin-bottom:20px;
+    }
+
+    /* LISTAS */
+    .pr-docente-body li{
+        font-size:15px;
+    }
+
+    /* TITULOS */
+    .pr-docente-body h4{
+        font-size:16px;
     }
 }
 

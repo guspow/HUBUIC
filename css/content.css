@@ -664,6 +664,7 @@
     background:#2f3b52;
     border-radius:12px;
     overflow:hidden;
+    margin-bottom: 2%;
 }
 
 /* IMAGEN IZQUIERDA */
@@ -680,20 +681,21 @@
 
 /* CONTENIDO DERECHO */
 .pr-docente-content{
-    padding:40px;
+    padding:10px 40px;
     flex:1;
     color:#fff;
 }
 
 /* HEADER */
 .pr-docente-header h3{
-    font-size:28px;
+    font-size:35px;
     margin-bottom:10px;
 }
 
 .pr-docente-header p{
     color:#f4c15d;
     margin-bottom:30px;
+    font-size: 22px;
 }
 
 /* GRID INTERNO */
@@ -719,19 +721,16 @@
 
 .pr-docente-body li{
     margin-bottom:10px;
+    font-size: 20px;
 }
 
 /* TITULOS */
 .pr-docente-body h4{
     color:#f4c15d;
     margin-bottom:15px;
-    font-size:14px;
+    font-size:22px;
     letter-spacing:1px;
 }
-
-
-
-
 
 
 .faq-section{
