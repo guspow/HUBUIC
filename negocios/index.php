@@ -388,9 +388,46 @@
         }
     </script>
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFSZ7BH');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NFSZ7BHb"></script>
+    <script>
+        sessionStorage.clear();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'G-L9RCMVPSV1']);
+        _gaq.push(['_trackPageview']);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Fin Analytics G4 por codigo-->
+
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFSZ7BH" height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- ==================== HEADER COMPLETO ==================== -->
     <!-- ================= HEADER ================= -->
@@ -790,12 +827,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La diferencia principal es que la Dirección Estratégica va más allá de la gestión operativa diaria,
-                                                    priorizando la <strong> visión de largo plazo y el liderazgo de alta dirección</strong>. El egresado está formado para:</p>
+                                                    La diferencia principal entre la <strong>Dirección Estratégica</strong> y la administración
+                                                    tradicional es que nuestro enfoque va más allá de la gestión operativa diaria,
+                                                    priorizando la visión de largo plazo y el liderazgo de alta dirección. El egresado
+                                                    está formado para:
+                                                </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong> Dirigir organizaciones completas</strong>, no solo administrarlas.</li>
-                                                    <li><strong> Implementar la transformación digital </strong>dentro de la empresa.</li>
-                                                    <li>Impulsar procesos de cambio y asegurar la <strong>competitividad internacional.</strong></li>
+                                                    <li>Dirigir organizaciones completas, no solo administrarlas.</li>
+                                                    <li>Implementar la transformación digital dentro de la empresa.</li>
+                                                    <li>Impulsar procesos de cambio y asegurar la competitividad internacional.</li>
                                                 </ul>
                                                 </p>
                                             </div>
@@ -807,14 +847,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Durante la carrera aprenderás a tomar decisiones utilizando tecnología
-                                                    aplicada al mundo corporativo, destacando el uso de <strong> simuladores de negocios
-                                                        de última generación </strong> que replican mercados financieros y operativos reales.
-                                                    Además, dominarás:
+                                                    Durante la carrera de <strong>Administración y Dirección Estratégica</strong>, aprenderás a
+                                                    tomar decisiones utilizando tecnología aplicada al mundo corporativo,
+                                                    destacando el uso de simuladores de negocios de última generación que
+                                                    replican mercados financieros y operativos reales. Además, dominarás:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong> Inteligencia de negocios y análisis de datos</strong> para respaldar estrategias.</li>
-                                                    <li><strong> Software de gestión de proyectos </strong>de nivel profesional.</li>
+                                                    <li>Inteligencia de negocios y análisis de datos para respaldar estrategias.</li>
+                                                    <li>Software de gestión de proyectos de nivel profesional.</li>
                                                     <li>Metodologías de consultoría aplicadas directamente a casos de empresas reales.</li>
                                                 </ul>
                                             </div>
@@ -826,32 +866,17 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Este programa es ideal para personas con vocación de liderazgo, capacidad
-                                                    analítica y visión para resolver problemas complejos. Conviene especialmente
-                                                    a quienes proyectan:
+                                                    Estudiar <strong>Administración y Dirección Estratégica en la UIC</strong> es ideal para
+                                                    personas con vocación de liderazgo, capacidad analítica y visión para resolver
+                                                    problemas complejos. Conviene especialmente a quienes proyectan:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong> Emprender</strong> sus propios negocios con bases sólidas.</li>
-                                                    <li><strong> Hacer consultoría</strong> estratégica para otras organizaciones.</li>
-                                                    <li><strong>Ascender a puestos directivos</strong>en empresas nacionales o multinacionales (gracias a su interés en negocios internacionales).</li>
+                                                    <li>Emprender sus propios negocios con bases sólidas.</li>
+                                                    <li>Hacer consultoría estratégica para otras organizaciones.</li>
+                                                    <li>Ascender a puestos directivos en empresas nacionales o multinacionales (gracias a su interés en negocios internacionales).</li>
                                                 </ul>
                                             </div>
                                         </div>
-
-                                        <!-- <div class="faq-item">
-                                            <button class="faq-question">
-                                                ¿Cuánto gana un administrador de empresas recién egresado en México?
-                                            </button>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Un egresado de Administración puede ganar entre <strong>$13,000 y $17,500 mensuales</strong> al inicio.
-                                                    Con 3–5 años de experiencia, el rango sube a <strong>$30,000–$50,000</strong>.
-                                                    En puestos directivos o senior puede superar los <strong>$70,000 mensuales</strong>.
-                                                    El dominio del inglés y certificaciones en PMP o Data Analytics pueden incrementar estos rangos hasta un 45%.
-                                                </p>
-                                            </div>
-                                        </div> -->
-
                                     </div>
 
                                 </div>
@@ -998,14 +1023,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Un egresado de esta carrera <strong>gestiona y analiza la información financiera</strong> para apoyar
-                                                    la toma de decisiones clave en empresas de cualquier sector. Su labor práctica incluye:
+                                                    Un egresado de la Licenciatura en <strong>Contaduría y Finanzas de la UIC</strong> gestiona y
+                                                    analiza la información financiera para apoyar la toma de decisiones clave en
+                                                    empresas de cualquier sector. Su labor práctica incluye:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li>Elaborar<strong> estados financieros.</strong></li>
-                                                    <li>Diseñar <strong> estrategias fiscales </strong>eficientes.</li>
-                                                    <li>Supervisar el cumplimiento de <strong>normativas contables y tributarias.</strong></li>
-                                                    <li>Participar activamente en procesos de <strong>auditoría y control interno.</strong></li>
+                                                    <li>Elaborar estados financieros.</li>
+                                                    <li>Diseñar estrategias fiscales eficientes.</li>
+                                                    <li>Supervisar el cumplimiento de normativas contables y tributarias.</li>
+                                                    <li>Participar activamente en procesos de auditoría y control interno.</li>
                                                 </ul>
                                                 </p>
                                             </div>
@@ -1017,12 +1043,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Aunque ambas comparten bases sólidas en finanzas corporativas,
-                                                    la diferencia radica en su enfoque y campo laboral:
+                                                    Aunque ambas comparten bases sólidas en finanzas corporativas, la diferencia
+                                                    entre <strong>Contaduría y Finanzas</strong> y Administración radica en su enfoque y campo
+                                                    laboral:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Contaduría y Finanzas:</strong> Se enfoca rigurosamente en la <strong>precisión contable</strong>, el cumplimiento fiscal y la gestión detallada de la información financiera.</li>
-                                                    <li><strong>Administración y Dirección Estratégica: </strong> Prioriza la <strong>visión de largo plazo</strong> y el liderazgo organizacional para dirigir la empresa en su conjunto.</li>
+                                                    <li><strong>Contaduría y Finanzas:</strong> Se enfoca rigurosamente en la precisión contable, el cumplimiento fiscal y la gestión detallada de la información financiera.</li>
+                                                    <li><strong>Administración y Dirección Estratégica: </strong> Prioriza la visión de largo plazo y el liderazgo organizacional para dirigir la empresa en su conjunto.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1033,13 +1060,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Es una de las profesiones con <strong>mayor demanda sostenida</strong> y estabilidad en el país.
-                                                    Los datos del mercado laboral (2025) lo confirman:
+                                                    La carrera de <strong>Contaduría y Finanzas</strong> es una de las profesiones con mayor
+                                                    demanda sostenida y estabilidad en el país. Los datos del mercado laboral
+                                                    (2025) lo confirman:
                                                 </p>
                                                 <ul class="lista-fa">
                                                     <li><strong>Alta empleabilidad:</strong> Existen aproximadamente 542 mil personas trabajando como contadores, auditores y especialistas financieros en México.</li>
-                                                    <li><strong>Oferta constante:</strong> El sector financiero y de seguros registró más de <strong>18,500 vacantes</strong> entre enero y abril de 2025.</li>
-                                                    <li><strong>Seguridad formal:</strong> La informalidad en este sector es de <strong>solo 11.6%</strong>, ubicándose muy por debajo del promedio nacional.</li>
+                                                    <li><strong>Oferta constante:</strong> El sector financiero y de seguros registró más de 18,500 vacantes entre enero y abril de 2025.</li>
+                                                    <li><strong>Seguridad formal:</strong> La informalidad en este sector es de solo 11.6%, ubicándose muy por debajo del promedio nacional.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1204,13 +1232,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La diferencia principal es que la UIC forma <strong>mercadólogos capaces de tomar decisiones creativas basadas en números</strong>,
-                                                    no solo creadores de contenido o campañas. Nuestro programa destaca porque:
+                                                    La diferencia principal de la <strong>Licenciatura en Mercadotecnia de la UIC</strong> es que
+                                                    forma mercadólogos capaces de tomar decisiones creativas basadas en
+                                                    números, no solo creadores de contenido o campañas. Nuestro programa
+                                                    destaca porque:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li>Logra un <strong>equilibrio estratégico </strong>entre la analítica numérica y el desarrollo creativo.</li>
-                                                    <li>Te conecta con el mundo laboral desde los primeros semestres trabajando con <strong>pymes y empresas reconocidas</strong>.</li>
-                                                    <li>Garantiza la <strong>aplicación directa de conceptos</strong> frente a retos empresariales auténticos.</li>
+                                                    <li>Logra un equilibrio estratégico entre la analítica numérica y el desarrollo creativo.</li>
+                                                    <li>Te conecta con el mundo laboral desde los primeros semestres trabajando con pymes y empresas reconocidas.</li>
+                                                    <li>Garantiza la aplicación directa de conceptos frente a retos empresariales auténticos.</li>
                                                 </ul>
 
                                             </div>
@@ -1222,14 +1252,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>No necesariamente</strong>. El objetivo de la carrera no es formarte como analista de
-                                                    datos o programador, sino como un estratega capaz de <strong>interpretar y utilizar los datos a tu favor</strong>.
-                                                    En la UIC desarrollarás habilidades para:
+                                                    No necesariamente. Para ser <strong>mercadólogo</strong> el objetivo de la carrera no es
+                                                    formarte como analista de datos o programador, sino como un estratega capaz
+                                                    de interpretar y utilizar los datos a tu favor. En la UIC desarrollarás habilidades
+                                                    para:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li>Integrar la <strong>estadística y la analítica de datos</strong> de forma 100% aplicada.</li>
-                                                    <li><strong>Leer métricas</strong> y tomar decisiones de negocio respaldadas por Big Data.</li>
-                                                    <li><strong>Comunicar resultados estratégicamente</strong> a clientes y mesas directivas.</li>
+                                                    <li>Integrar la estadística y la analítica de datos de forma 100% aplicada.</li>
+                                                    <li>Leer métricas y tomar decisiones de negocio respaldadas por Big Data.</li>
+                                                    <li>Comunicar resultados estratégicamente a clientes y mesas directivas.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1240,30 +1271,18 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Este programa es ideal para personas que buscan combinar el pensamiento analítico con el creativo para dominar el comportamiento del consumidor.
-                                                    Te conviene estudiar aquí si te apasiona:
+                                                    Estudiar Mercadotecnia en la UIC es ideal para personas que buscan combinar
+                                                    el pensamiento analítico con el creativo para dominar el comportamiento del
+                                                    consumidor. Te conviene estudiar aquí si te apasiona:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Manejar redes sociales</strong> para el posicionamiento real de la marca (más allá de solo generar contenido).</li>
-                                                    <li>Idear, diseñar y lanzar <strong>nuevos productos y servicios</strong> al mercado.</li>
-                                                    <li>Desarrollarte en áreas de alto impacto como <strong>relaciones públicas, organización de eventos o dirección de ventas.</strong></li>
+                                                    <li>Manejar redes sociales para el posicionamiento real de la marca (más allá de solo generar contenido).</li>
+                                                    <li>Idear, diseñar y lanzar nuevos productos y servicios al mercado.</li>
+                                                    <li>Desarrollarte en áreas de alto impacto como relaciones públicas, organización de eventos o dirección de ventas.</li>
                                                 </ul>
 
                                             </div>
                                         </div>
-
-                                        <!-- <div class="faq-item">
-                                            <button class="faq-question">
-                                                ¿Cuánto gana un mercadólogo egresado en México?
-                                            </button>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    El salario inicial en Mercadotecnia se ubica entre <strong>$7,500 y $12,000 mensuales</strong>.
-                                                    Con experiencia y dependiendo del puesto e industria, puede crecer a <strong>$26,000–$80,000 mensuales</strong>.
-                                                    Fuentes: DataMéxico (Secretaría de Economía), Indeed MX y Michael Page 2025.
-                                                </p>
-                                            </div>
-                                        </div> -->
                                     </div>
 
                                 </div>
@@ -1402,13 +1421,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Un egresado de RCI internacionaliza empresas mediante estrategias de planeación, gestión e implementación a nivel global.
-                                                    Su perfil operativo y estratégico le permite:
+                                                    Un egresado de <strong>Relaciones Comerciales Internacionales (RCI) de la UIC</strong>
+                                                    internacionaliza empresas mediante estrategias de planeación, gestión e
+                                                    implementación a nivel global. Su perfil operativo y estratégico le permite:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Operar procesos de cadena de suministro</strong> y logística internacional para empresas nacionales y multinacionales.</li>
-                                                    <li><strong>Negociar con diferentes países y culturas</strong>, actuando como puente directo entre mercados comerciales.</li>
-                                                    <li><strong>Liderar proyectos</strong> que generan un impacto económico, ambiental y social positivo.</li>
+                                                    <li>Operar procesos de cadena de suministro y logística internacional para empresas nacionales y multinacionales.</li>
+                                                    <li>Negociar con diferentes países y culturas, actuando como puente directo entre mercados comerciales.</li>
+                                                    <li>Liderar proyectos que generan un impacto económico, ambiental y social positivo.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1418,12 +1438,14 @@
                                                 ¿La carrera de RCI incluye prácticas en aduanas?
                                             </button>
                                             <div class="faq-answer">
-                                                <p><strong>Sí, incluye prácticas colaborativas reales en aduanas y en comercio exterior</strong>.
-                                                    Esta inmersión profesional es guiada por una planta docente de especialistas activos en el sector, destacando a:
+                                                <p>Sí, la carrera de <strong>Relaciones Comerciales Internacionales (RCI)</strong> incluye
+                                                    prácticas colaborativas reales en aduanas y en comercio exterior. Esta
+                                                    inmersión profesional es guiada por una planta docente de especialistas
+                                                    activos en el sector, destacando a:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Dr. Jorge Javier Rodríguez Puig:</strong> Experto con despacho propio en temas aduaneros.</li>
-                                                    <li><strong>Mtro. Jorge Alberto Soria:</strong> Autor de libros sobre Derecho Aduanero con amplia experiencia en agencias aduanales.</li>
+                                                    <li>Dr. Jorge Javier Rodríguez Puig: Experto con despacho propio en temas aduaneros.</li>
+                                                    <li>Mtro. Jorge Alberto Soria: Autor de libros sobre Derecho Aduanero con amplia experiencia en agencias aduanales.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1434,14 +1456,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La principal diferencia es que <strong>RCI en la UIC es multidisciplinaria</strong>, combinando un programa robusto y actualizado en cuatro grandes áreas:
-                                                    <strong>negocios internacionales, logística, relaciones internacionales y emprendimiento</strong>.
-                                                    Destaca además por:
+                                                    La principal diferencia de <strong>Relaciones Comerciales Internacionales (RCI)</strong> frente
+                                                    a Negocios Internacionales es que nuestro programa en la UIC es
+                                                    multidisciplinario, combinando cuatro grandes áreas: negocios internacionales,
+                                                    logística, relaciones internacionales y emprendimiento. Destaca además por:
                                                 </p>
                                                 <ul class="lista-fa">
                                                     <li>Una planta docente con experiencia profesional directa en el sector.</li>
                                                     <li>Prácticas reales en aduanas durante la formación.</li>
-                                                    <li><strong>Inserción laboral acelerada:</strong> Los alumnos comienzan a trabajar desde el séptimo semestre.</li>
+                                                    <li>Inserción laboral acelerada: Los alumnos comienzan a trabajar desde el séptimo semestre.</li>
                                                 </ul>
 
                                             </div>
@@ -1586,13 +1609,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Un egresado es un <string>profesional versátil que coordina, desarrolla y gestiona</string> proyectos y
-                                                    servicios turísticos a nivel global. Su visión administrativa, humana y sostenible le permite triunfar en:
+                                                    Un egresado de <strong>Administración de Negocios Turísticos de la UIC</strong> es un
+                                                    profesional versátil que coordina, desarrolla y gestiona proyectos y servicios
+                                                    turísticos a nivel global. Su visión administrativa, humana y sostenible le
+                                                    permite triunfar en:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Sectores múltiples:</strong> Empresas privadas, instituciones del sector público o mediante emprendimientos propios.</li>
-                                                    <li><strong>Gestión global:</strong> Dirección de empresas internacionales de viajes y consultoría turística.</li>
-                                                    <li><strong>Desarrollo experiencial:</strong> Organización de eventos de alto impacto y gestión gastronómica.</li>
+                                                    <li>Sectores múltiples: Empresas privadas, instituciones del sector público o mediante emprendimientos propios.</li>
+                                                    <li>Gestión global: Dirección de empresas internacionales de viajes y consultoría turística.</li>
+                                                    <li>Desarrollo experiencial: Organización de eventos de alto impacto y gestión gastronómica.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1603,14 +1628,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La diferencia principal radica en la <strong>inmersión práctica inmediata y la alta especialización profesional</strong>.
-                                                    En la UIC destacas frente a otros egresados porque:
+                                                    La <strong>Licenciatura en Administración de Negocios Turísticos (LANT)</strong> se
+                                                    diferencia de otras carreras de turismo por su inmersión práctica inmediata y la
+                                                    alta especialización profesional. En la UIC destacas frente a otros egresados
+                                                    porque:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li>Participas en <strong>eventos y congresos reales</strong>(nacionales e internacionales) desde tu primer semestre.</li>
-                                                    <li>Puedes obtener hasta<strong>5 certificaciones profesionales</strong> a lo largo de tu licenciatura.
-                                                        relacional.</li>
-                                                    <li>Aprendes de una<strong>planta docente activa y experta:</strong> desde Front Office Managers de cadenas como Hilton, hasta directores de restaurantes y
+                                                    <li>Participas en eventos y congresos reales(nacionales e internacionales) desde tu primer semestre.</li>
+                                                    <li>Puedes obtener hasta5 certificaciones profesionales a lo largo de tu licenciatura.</li>
+                                                    <li>Aprendes de unaplanta docente activa y experta: desde Front Office Managers de cadenas como Hilton, hasta directores de restaurantes y
                                                         productores de eventos.</li>
                                                 </ul>
                                             </div>
@@ -1622,7 +1648,7 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>Sí, la formación global es un pilar de la carrera.</strong>. El plan de estudios está diseñado para proyectar tu perfil al extranjero mediante:
+                                                    Sí, en <strong>Negocios Turísticos</strong> la formación global es un pilar de la carrera. El plan de estudios está diseñado para proyectar tu perfil al extranjero mediante:
                                                 </p>
                                                 <ul class="lista-fa">
                                                     <li><strong>Prácticas profesionales (6to semestre):</strong> Trabajarás en empresas clave del sector turístico, ya sean nacionales o internacionales.</li>
@@ -1638,12 +1664,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Este programa es ideal para jóvenes con <strong>espíritu emprendedor, habilidades de organización y que disfrutan genuinamente el trato humano</strong>.
-                                                    Te conviene estudiar LANT si te apasiona:
+                                                    Estudiar <strong>Administración de Negocios Turísticos</strong> es ideal para jóvenes con
+                                                    espíritu emprendedor, habilidades de organización y que disfrutan
+                                                    genuinamente el trato humano. Te conviene estudiar LANT si te apasiona:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li>Descubrir y explorar <strong>destinos, tradiciones y gastronomía</strong>, con disposición para aprender idiomas.</li>
-                                                    <li><strong>Planear, coordinar y administrar</strong> la logística detrás de grandes eventos y experiencias memorables.</li>
+                                                    <li>Descubrir y explorar destinos, tradiciones y gastronomía, con disposición para aprender idiomas.</li>
+                                                    <li>Planear, coordinar y administrar la logística detrás de grandes eventos y experiencias memorables.</li>
                                                     <li>Aprovechar las nuevas tecnologías para innovar dentro del sector turístico.</li>
                                                 </ul>
                                             </div>
@@ -2018,7 +2045,7 @@
                     <div class="form__group" style="background-image: url(https://www.uic.mx/wp-content/uploads/2022/07/spiner2.gif); background-position: center; background-repeat: no-repeat; height: 30px">
                         <input class="form-button" name="Submit" id="send" type="submit" value="Solicitar Información">
                     </div>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-psicologia/">
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-administracion/">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
@@ -2034,6 +2061,10 @@
 
         <!-- ==================== MENÚ LATERAL IZQUIERDO (SIDE MENU) ==================== -->
         <?php include '../layout/menu.php'; ?>
+
+        <!-- Google Tag Manager  (script)-->
+        <script src="https://www.uic.mx/wp-content/themes/hello-theme-child/js/uicUTM.js" id="uic-utm-js-js"></script>
+        <!-- End Google Tag Manager  (script)-->
 </body>
 <script src="../js/aside_menu.js"></script>
 <script src="../js/script_all.js"></script>

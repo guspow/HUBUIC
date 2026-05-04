@@ -264,9 +264,44 @@
             ]
         }
     </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFSZ7BH');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NFSZ7BHb"></script>
+    <script>
+        sessionStorage.clear();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'G-L9RCMVPSV1']);
+        _gaq.push(['_trackPageview']);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Fin Analytics G4 por codigo-->
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFSZ7BH"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- ==================== HEADER COMPLETO ==================== -->
     <!-- ================= HEADER ================= -->
@@ -572,14 +607,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La Licenciatura en Psicología de la UIC se imparte en <strong>tres modalidades</strong>, todas
-                                                    compartiendo el mismo plan de estudios y respaldo académico:</p>
+                                                    La Licenciatura en Psicología de la UIC se imparte en <strong>tres modalidades distintas</strong>
+                                                    que comparten el mismo plan de estudios y calidad académica:</p>
                                                 <ul class="lista-fa">
-                                                    <li><strong> Escolarizada:</strong> Clases presenciales con una duración de 4 años.</li>
-                                                    <li><strong> A distancia:</strong> Plataforma virtual con ritmo flexible, con una duración
-                                                        aproximada de 2 años y 8 meses.<br></li>
-                                                    <li><strong> En línea:</strong> Formato 100% digital con una duración aproximada de 2 años y
-                                                        3 meses.</li>
+                                                    <li><strong> Escolarizada (Presencial):</strong> Clases en campus con una duración de 4 años.</li>
+                                                    <li><strong> A distancia:</strong> Uso de plataforma virtual con sesiones online; duración de 2 años y 8 meses (idealmente).<br></li>
+                                                    <li><strong> En línea:</strong> Formato 100% en línea, tú decides cuándo estudiar, optimizado para una duración de 2 años
+                                                        y 3 meses (llevando 2 materias de forma continua y sin interrupciones).</li>
                                                 </ul>
 
                                             </div>
@@ -591,15 +625,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Un egresado puede ejercer en un amplio campo laboral gracias a que nuestra
-                                                    formación integra perspectivas <strong>clínicas, psicoanalíticas, cognitivo-conductuales
-                                                        y neuropsicológicas</strong>. Podrás desarrollarte como:</p>
+                                                    El campo laboral de un psicólogo egresado de la UIC es extenso debido a una formación integral que abarca las perspectivas clínica,
+                                                    psicoanalítica, cognitivo-conductual y neuropsicológica. Podrás desempeñarte como:</p>
                                                 <ul class="lista-fa">
-                                                    <li> Psicólogo clínico en consulta privada o institucional.</li>
-                                                    <li> Evaluador psicológico.</li>
-                                                    <li> Interventor psicoeducativo en escuelas.</li>
-                                                    <li> Especialista en recursos humanos.</li>
-                                                    <li> Investigador.</li>
+                                                    <li> <strong>Psicólogo Clínico:</strong> En instituciones de salud o consulta privada.</li>
+                                                    <li> <strong>Evaluador Psicológico:</strong> Especialista en diagnóstico y psicometría.</li>
+                                                    <li> <strong>Interventor Psicoeducativo:</strong> Apoyo y desarrollo en entornos escolares.</li>
+                                                    <li> <strong>Especialista en Capital Humano:</strong> Reclutamiento, selección y desarrollo organizacional.</li>
+                                                    <li> <strong>Investigador:</strong> Generación de conocimiento científico en salud mental.</li>
                                                 </ul>
 
                                             </div>
@@ -611,12 +644,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>Sí.</strong> Los estudiantes de psicología realizan práctica clínica atendiendo a población real.
-                                                    La universidad cuenta con instalaciones propias como el <strong>Centro
-                                                        de Atención a la Salud Integral &quot;ASI&quot;</strong> y el <strong>Centro Universitario de Atención a
-                                                        la Infancia</strong>, donde practicarás bajo la supervisión directa de profesores clínicos
-                                                    activos.
+                                                    Sí, la práctica clínica con pacientes reales es un pilar fundamental de nuestra licenciatura.
+                                                    Los estudiantes realizan sus prácticas bajo supervisión directa de profesores
+                                                    clínicos activos en instalaciones universitarias propias como:
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li> <strong>Centro de Atención a la Salud Integral "ASI":</strong> Enfoque en salud general y comunitaria.</li>
+                                                    <li> <strong>Centro Universitario de Atención a la Infancia:</strong> Especializado en intervención infantil.</li>
+                                                </ul>
                                             </div>
                                         </div>
 
@@ -626,13 +661,14 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La UIC destaca por integrar una <strong>perspectiva humanista y psicoanalítica</strong> que
-                                                    complementa los enfoques empíricos tradicionales. Además, te formarás con
-                                                    un cuerpo docente de alto nivel que incluye:</p>
+                                                    El principal diferenciador de la UIC es la <strong>integración de una perspectiva humanista y
+                                                        psicoanalítica</strong> que complementa los enfoques empíricos y científicos tradicionales.
+                                                    Además, la excelencia académica está respaldada por un cuerpo docente de élite que incluye:
+                                                </p>
                                                 <ul class="lista-fa">
-                                                    <li> Clínicos activos en el campo.</li>
-                                                    <li> Investigadores pertenecientes al SNI (Sistema Nacional de Investigadores).</li>
-                                                    <li> Docentes con certificaciones internacionales en TCC, DBT y neuropsicología.</li>
+                                                    <li> <strong>Clínicos activos</strong> con experiencia directa en pacientes.</li>
+                                                    <li> <strong>Investigadores del SNI </strong>(Sistema Nacional de Investigadores).</li>
+                                                    <li> <strong>Especialistas certificados </strong> internacionalmente en TCC, DBT y neuropsicología.</strong></li>
                                                 </ul>
 
                                             </div>
@@ -729,37 +765,15 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La diferencia principal radica en su objetivo: la maestría es práctica, mientras que el doctorado es investigativo.
-                                                <ul class="lista-fa">
-                                                    <li> <strong> Maestría:</strong> Privilegia la formación clínica aplicada. El objetivo es que
-                                                        desarrolles habilidades para atender pacientes y ejercer como
-                                                        psicoterapeuta (la clínica es el núcleo de tu práctica profesional).</li>
-                                                    <li> <strong> Doctorado:</strong> Se orienta a la producción original de conocimiento
-                                                        psicoanalítico, la investigación</li>
-                                                </ul>
+                                                    La diferencia fundamental radica en el enfoque: la <strong>Maestría es de carácter profesionalizante (práctica clínica)</strong>,
+                                                    mientras que el <strong>Doctorado es de carácter investigativo (teoría y conocimiento)</strong>.
                                                 </p>
+                                                <ul class="lista-fa">
+                                                    <li> <strong> Maestría:</strong> Su núcleo es el desarrollo de habilidades clínicas para ejercer como psicoterapeuta y atender pacientes directamente</li>
+                                                    <li> <strong> Doctorado:</strong> Se orienta a la producción de conocimiento original, utilizando la clínica como fuente de investigación y teorización.</li>
+                                                </ul>
                                             </div>
                                         </div>
-
-                                        <!-- <div class="faq-item">
-                                            <button class="faq-question">
-                                                ¿Cuánto gana un egresado de la Maestría en Psicoterapia Psicoanalítica?
-                                            </button>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    El ingreso de un egresado depende del modelo de trabajo que elija, destacando dos escenarios principales:
-                                                </p>
-                                                <ul class="lista-fa">
-                                                    <li> <strong> Roles institucionales:</strong> Puedes iniciar con ingresos de <strong>$12,000 a $20,000
-                                                            mensuales</strong>.</li>
-                                                    <li> <strong> Práctica privada consolidada:</strong> Los ingresos pueden superar los <strong>$30,000
-                                                            a $50,000 mensuales</strong>.</li>
-                                                </ul></strong>
-                                                <p>El retorno de inversión dependerá directamente del volumen de pacientes y el
-                                                    perfil de tu propia práctica clínica.
-                                                </p>
-                                            </div>
-                                        </div> -->
 
                                         <div class="faq-item">
                                             <button class="faq-question">
@@ -767,10 +781,9 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong> Sí. </strong> La supervisión clínica es el eje central de la maestría. A través de la <strong> Clínica
-                                                        Universitaria CUPPIE </strong> de la UIC, realizarás tu práctica supervisada atendiendo a
-                                                    población real. Toda esta área de psicoterapia está bajo la coordinación directa
-                                                    del Dr. Roberto Reyes, destacado psiquiatra y doctor en psicoanálisis.
+                                                    Sí, la supervisión clínica de casos reales es el eje central de esta maestría.
+                                                    La práctica se realiza a través de la <strong>Clínica Universitaria CUPPIE</strong> de la UIC, bajo la coordinación del Dr. Roberto Reyes,
+                                                    destacado psiquiatra y doctor en psicoanálisis, garantizando un acompañamiento profesional de primer nivel.
                                                 </p>
                                             </div>
                                         </div>
@@ -781,14 +794,12 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Para ingresar a este posgrado, es necesario contar con:
+                                                    Para ingresar a este posgrado, el aspirante debe cumplir con los siguientes requisitos profesionales y personales:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li> Título de licenciatura en Psicología o áreas afines.</li>
-                                                    <li> Conocimientos básicos de psicopatología y entrevista clínica.</li>
-                                                    <li> Motivación genuina hacia la práctica psicoterapéutica.</li>
-                                                    <li> Recomendación: Disposición para iniciar o mantener un proceso de
-                                                        análisis personal como parte integral de tu formación.</li>
+                                                    <li><strong>Título de licenciatura:</strong> En Psicología o áreas de la salud afines.</li>
+                                                    <li><strong>Conocimientos técnicos:</strong> Bases sólidas en psicopatología y técnica de entrevista clínica.</li>
+                                                    <li><strong>Motivación ética:</strong> Compromiso genuino con la práctica psicoterapéutica y disposición para mantener un proceso de análisis personal.</li>
                                                 </ul>
 
                                             </div>
@@ -893,18 +904,11 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Este programa es ideal para psicoterapeutas o psicoanalistas que buscan
-                                                    profundizar en su práctica clínica. Conviene especialmente a quienes:
+                                                    Este doctorado es ideal para <strong>psicoterapeutas y psicoanalistas activos</strong> que desean profundizar en su técnica ante casos
+                                                    complejos que los manuales estandarizados no alcanzan a cubrir.
+                                                    Es el programa indicado para quienes buscan ir más allá de los enfoques tradicionales y enfrentar la singularidad clínica
+                                                    con mayor rigor teórico.
                                                 </p>
-                                                <ul class="lista-fa">
-                                                    <li> <strong> Ejercen la clínica regularmente</strong> y buscan ir más allá de los enfoques
-                                                        tradicionales.</li>
-                                                    <li> <strong> Se enfrentan a casos complejos</strong> que requieren un nivel de análisis
-                                                        superior.</li>
-                                                    <li> Sienten que <strong> los manuales y técnicas estandarizadas se quedan cortos</strong>
-                                                        ante la singularidad de sus pacientes. </li>
-                                                </ul>
-
                                             </div>
                                         </div>
 
@@ -914,17 +918,10 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    La diferencia fundamental radica en la forma de investigar y generar
-                                                    conocimiento:
+                                                    La diferencia clave es la metodología de generación de conocimiento: el Doctorado en Psicología suele ser cuantitativo y empírico,
+                                                    mientras que el <strong>Doctorado en Psicoanálisis de la UIC</strong> utiliza el caso clínico como el núcleo generador de teoría .
+                                                    Aquí, la implicación del analista y la ética profesional son partes esenciales del trabajo de investigación doctoral.
                                                 </p>
-                                                <ul class="lista-fa">
-                                                    <li><strong> Doctorado en Psicología:</strong> Se orienta de manera convencional a la
-                                                        investigación empírica y cuantitativa.</li>
-                                                    <li><strong> Doctorado en Psicoanálisis (UIC):</strong> Su objetivo es la producción de
-                                                        conocimiento psicoanalítico. Aquí, el caso clínico no es solo un ejemplo,
-                                                        sino el <strong> núcleo generador de teoría</strong>. Además, la implicación del analista y
-                                                        su posición ética forman parte integral del trabajo doctoral.</li>
-                                                </ul>
                                             </div>
                                         </div>
 
@@ -934,16 +931,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>No por sí mismo</strong> (ese proceso inicial lo otorga la licenciatura y la maestría),
-                                                    pero es un catalizador para quienes ya están en la práctica. Cursar este
-                                                    doctorado te permite:
+                                                    No por sí mismo; el proceso de clínica inicial proviene de la licenciatura y la maestría.
+                                                    Sin embargo, este doctorado actúa como un <strong>catalizador profesional</strong> que te permite:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Incrementar significativamente tu posicionamiento</strong> profesional.</li>
-                                                    <li>Adquirir la profundidad teórica y metodológica para <strong>atender casos más
-                                                            complejos</strong>.</li>
-                                                    <li>Publicar en revistas especializadas y posicionarte como <strong>referente
-                                                            académico</strong>.</li>
+                                                    <li><strong>Atender casos de alta complejidad</strong> con mayor profundidad.</li>
+                                                    <li>Incrementar significativamente tu <strong>posicionamiento y prestigio</strong> en el sector.</li>
+                                                    <li>Convertirte en un <strong>referente académico</strong> a través de publicaciones especializadas.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -954,17 +948,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    El mayor futuro para un egresado se encuentra en la formación, la transmisión
-                                                    del psicoanálisis y el análisis de la cultura. Podrás proyectarte en:
+                                                    El egresado proyecta su carrera hacia la alta dirección académica, la formación de nuevos especialistas y el análisis cultural.
+                                                    Las salidas profesionales incluyen:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Ámbito académico:</strong> Docencia a nivel posgrado, dirección de tesis y
-                                                        supervisión avanzada.</li>
-                                                    <li><strong>Proyectos de impacto social:</strong> Participación en proyectos comunitarios y
-                                                        abordaje de fenómenos contemporáneos como la violencia, la migración
-                                                        y el trauma.</li>
-                                                    <li><strong>Análisis cultural:</strong> Generación de diálogo interdisciplinario con las
-                                                        humanidades, la filosofía y las políticas públicas.</li>
+                                                    <li><strong>Docencia y Supervisión:</strong> Profesor de posgrado y director de tesis avanzadas.</li>
+                                                    <li><strong>Impacto Social:</strong> Consultoría en proyectos comunitarios sobre violencia, migración y trauma.</li>
+                                                    <li><strong>Análisis Interdisciplinario:</strong> Diálogo con la filosofía, políticas públicas y humanidades.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1058,14 +1048,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    Es el nivel de formación más alto en el campo psicoanalítico. Sirve para que
-                                                    doctores en ejercicio logren:
+                                                    Es el <strong>máximo nivel de formación académica</strong> en este campo.
+                                                    Su propósito es permitir que los doctores alcancen tres objetivos estratégicos:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Actualizarse</strong> en corrientes recientes como el psicoanálisis relacional,
-                                                        intersubjetivo y neuropsicoanálisis.</li>
-                                                    <li><strong>Desarrollar proyectos</strong> de investigación de alto impacto.</li>
-                                                    <li><strong>Posicionarse</strong> como una autoridad académica en su especialidad.</li>
+                                                    <li><strong>Actualización de vanguardia:</strong> Especialización en psicoanálisis relacional, intersubjetivo y neuropsicoanálisis.</li>
+                                                    <li><strong>Investigación de alto impacto:</strong> Desarrollo de proyectos científicos avanzados.</li>
+                                                    <li><strong>Liderazgo académico: </strong> Consolidación como autoridad internacional en su especialidad.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1075,16 +1064,13 @@
                                                 ¿El Postdoctorado en Psicoanálisis de la UIC tiene docentes internacionales?
                                             </button>
                                             <div class="faq-answer">
-                                                <p><strong>Sí</strong>. El cuerpo docente cuenta con expertos internacionales de primer nivel,
-                                                    entre ellos:
+                                                <p>
+                                                    Sí, el cuerpo docente cuenta con autoridades internacionales de renombre. Entre ellos destacan:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li><strong>Dra. Laura Molet Estaper (España):</strong> Especialista en trastornos
-                                                        alimentarios.</li>
-                                                    <li><strong>Dr. André Sassenfeld (Chile):</strong> Autor de nueve libros sobre psicoanálisis
-                                                        relacional.</li>
-                                                    <li><strong>Dra. Eva Rotenberg (Argentina):</strong> Psicoanalista especialista en niños,
-                                                        adolescentes y familias.</li>
+                                                    <li><strong>Dra. Laura Molet Estaper (España):</strong> Experta en trastornos de la conducta alimentaria.</li>
+                                                    <li><strong>Dr. André Sassenfeld (Chile):</strong> Autor referente en psicoanálisis relacional.</li>
+                                                    <li><strong>Dra. Eva Rotenberg (Argentina):</strong> Especialista en clínica de niños, adolescentes y familias.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1095,15 +1081,13 @@
                                             </button>
                                             <div class="faq-answer">
                                                 <p>
-                                                    <strong>Sí</strong>. El programa está diseñado para profesionales con agendas de alta
-                                                    exigencia, ofreciendo:
+                                                    Sí, el programa está diseñado específicamente para profesionales con agendas de alta exigencia.
+                                                    Ofrece una estructura que facilita la conciliación laboral:
                                                 </p>
                                                 <ul class="lista-fa">
-                                                    <li> <strong>Modalidad 100% a distancia.</strong></li>
-                                                    <li> Duración estructurada en <strong>tres semestres.</strong></li>
-                                                    <li> Flexibilidad para mantener activa tanto la <strong>práctica clínica</strong> como la
-                                                        <strong>actividad académica</strong>.
-                                                    </li>
+                                                    <li> <strong>Modalidad 100% a distancia:</strong> Sin traslados necesarios.</li>
+                                                    <li> <strong>Duración estructurada:</strong> Tres semestres de formación intensiva.</li>
+                                                    <li> <strong>Flexibilidad: Permite mantener activa la práctica clínica y la actividad académica simultáneamente.</li>
                                                 </ul>
 
                                             </div>
@@ -1610,6 +1594,15 @@
 
                 <form id="WebToLeadForm" action="https://hook.us1.make.com/2mk3ouv2dc515gqufsd4hlmnf2atnnfg" method="POST" name="WebToLeadForm">
                     <div class="form__group">
+                        <select id="tipo_info">
+                            <option value="" selected disabled>Oferta Académica</option>
+                            <option value="Lic">Licenciatura</option>
+                            <option value="Mae">Maestría</option>
+                            <option value="Doc">Doctorado</option>
+                            <option value="Pos">Postdoctorado</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
                         <input name="first_name" id="first_name" type="text" required="required" placeholder="Nombre(s)">
                     </div>
                     <div class="form__group">
@@ -1684,7 +1677,7 @@
                     <div class="form__group" style="background-image: url(https://www.uic.mx/wp-content/uploads/2022/07/spiner2.gif); background-position: center; background-repeat: no-repeat; height: 30px">
                         <input class="form-button" name="Submit" id="send" type="submit" value="Solicitar Información">
                     </div>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-psicologia/">
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://www.uic.mx/gracias-psicologia/">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
@@ -1698,9 +1691,38 @@
 
         <?php include '../layout/menu.php'; ?>
 
+        <!-- Google Tag Manager  (script)-->
+        <script src="https://www.uic.mx/wp-content/themes/hello-theme-child/js/uicUTM.js" id="uic-utm-js-js"></script>
+        <!-- End Google Tag Manager  (script)-->
+
 
 </body>
 <script src="../js/aside_menu.js"></script>
 <script src="../js/script_all.js"></script>
+
+<script>
+    //Script para cambiar valores del formualrio dependiendo de la oferta académica seleccionada con jquery
+    $("#tipo_info").change(function() {
+        var oferta = $(this).val();
+
+        let arregloOfertas = {
+            "Lic": {
+                "digofertaint_txt_c": "Licenciatura en Psicología"
+            },
+            "Mae": {
+                "digofertaint_txt_c": "Maestría en Psicoterapia Psicoanalítica"
+            },
+            "Doc": {
+                "digofertaint_txt_c": "Doctorado en Psicoanálisis"
+            },
+            "Pos": {
+                "digofertaint_txt_c": "Postdoctorado en Psicoanálisis Contemporáneo"
+            }
+        };
+
+        $("#digofertaint_txt_c").val(oferta);
+        $("#utmoferinteres_txt_c").val(oferta);
+    });
+</script>
 
 </html>
